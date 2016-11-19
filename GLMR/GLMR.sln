@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "GLMR", "GLMR\GLMR.sqlproj", "{2B30CE9E-A44B-4B40-ABA3-14469F23A135}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{CCED4220-87AB-4FF8-B74A-0D666632A848}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GLMRHack", "GLMRHack\GLMRHack.csproj", "{79C52157-68E4-44E0-92F7-4F50823BF078}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,6 +21,14 @@ Global
 		{2B30CE9E-A44B-4B40-ABA3-14469F23A135}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2B30CE9E-A44B-4B40-ABA3-14469F23A135}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2B30CE9E-A44B-4B40-ABA3-14469F23A135}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{CCED4220-87AB-4FF8-B74A-0D666632A848}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCED4220-87AB-4FF8-B74A-0D666632A848}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCED4220-87AB-4FF8-B74A-0D666632A848}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCED4220-87AB-4FF8-B74A-0D666632A848}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79C52157-68E4-44E0-92F7-4F50823BF078}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79C52157-68E4-44E0-92F7-4F50823BF078}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79C52157-68E4-44E0-92F7-4F50823BF078}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79C52157-68E4-44E0-92F7-4F50823BF078}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

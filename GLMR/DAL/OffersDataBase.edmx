@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="OffersDataBaseModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Cities">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" />
+          <Property Name="CityName" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="StateName" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="HousingL" Type="int" Nullable="false" />
+          <Property Name="HousingU" Type="int" Nullable="false" />
+          <Property Name="LivingL" Type="int" Nullable="false" />
+          <Property Name="LivingU" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Offers">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" />
+          <Property Name="CityId" Type="int" Nullable="false" />
+          <Property Name="StateName" Type="varchar" MaxLength="15" Nullable="false" />
+          <Property Name="Position" Type="varchar" MaxLength="30" Nullable="false" />
+          <Property Name="Wage" Type="int" Nullable="false" />
+          <Property Name="WorkingHours" Type="int" Nullable="false" />
+          <Property Name="Overtime" Type="bit" Nullable="false" />
+          <Property Name="StartDate" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="EndDate" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="Link" Type="varchar" MaxLength="1000" Nullable="false" />
+        </EntityType>
+        <Association Name="OffersFK">
+          <End Role="Cities" Type="Self.Cities" Multiplicity="1" />
+          <End Role="Offers" Type="Self.Offers" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Cities">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Offers">
+              <PropertyRef Name="CityId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="OffersDataBaseModelStoreContainer">
+          <EntitySet Name="Cities" EntityType="Self.Cities" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Offers" EntityType="Self.Offers" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="OffersFK" Association="Self.OffersFK">
+            <End Role="Cities" EntitySet="Cities" />
+            <End Role="Offers" EntitySet="Offers" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="OffersDataBaseModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="City">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" />
+          <Property Name="CityName" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="StateName" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="HousingL" Type="Int32" Nullable="false" />
+          <Property Name="HousingU" Type="Int32" Nullable="false" />
+          <Property Name="LivingL" Type="Int32" Nullable="false" />
+          <Property Name="LivingU" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Offers" Relationship="Self.OffersFK" FromRole="Cities" ToRole="Offers" />
+        </EntityType>
+        <EntityType Name="Offer">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" />
+          <Property Name="CityId" Type="Int32" Nullable="false" />
+          <Property Name="StateName" Type="String" MaxLength="15" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Position" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Wage" Type="Int32" Nullable="false" />
+          <Property Name="WorkingHours" Type="Int32" Nullable="false" />
+          <Property Name="Overtime" Type="Boolean" Nullable="false" />
+          <Property Name="StartDate" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="EndDate" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Link" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="City" Relationship="Self.OffersFK" FromRole="Offers" ToRole="Cities" />
+        </EntityType>
+        <Association Name="OffersFK">
+          <End Role="Cities" Type="Self.City" Multiplicity="1" />
+          <End Role="Offers" Type="Self.Offer" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Cities">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Offers">
+              <PropertyRef Name="CityId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="OffersDataBaseEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Cities" EntityType="Self.City" />
+          <EntitySet Name="Offers" EntityType="Self.Offer" />
+          <AssociationSet Name="OffersFK" Association="Self.OffersFK">
+            <End Role="Cities" EntitySet="Cities" />
+            <End Role="Offers" EntitySet="Offers" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="OffersDataBaseModelStoreContainer" CdmEntityContainer="OffersDataBaseEntities">
+          <EntitySetMapping Name="Cities">
+            <EntityTypeMapping TypeName="OffersDataBaseModel.City">
+              <MappingFragment StoreEntitySet="Cities">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="CityName" ColumnName="CityName" />
+                <ScalarProperty Name="StateName" ColumnName="StateName" />
+                <ScalarProperty Name="HousingL" ColumnName="HousingL" />
+                <ScalarProperty Name="HousingU" ColumnName="HousingU" />
+                <ScalarProperty Name="LivingL" ColumnName="LivingL" />
+                <ScalarProperty Name="LivingU" ColumnName="LivingU" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Offers">
+            <EntityTypeMapping TypeName="OffersDataBaseModel.Offer">
+              <MappingFragment StoreEntitySet="Offers">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="CityId" ColumnName="CityId" />
+                <ScalarProperty Name="StateName" ColumnName="StateName" />
+                <ScalarProperty Name="Position" ColumnName="Position" />
+                <ScalarProperty Name="Wage" ColumnName="Wage" />
+                <ScalarProperty Name="WorkingHours" ColumnName="WorkingHours" />
+                <ScalarProperty Name="Overtime" ColumnName="Overtime" />
+                <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+                <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+                <ScalarProperty Name="Link" ColumnName="Link" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>
