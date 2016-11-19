@@ -1,4 +1,5 @@
 ﻿using DAL;
+using GLMRHack.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,9 +13,12 @@ namespace GLMRHack.Controllers
     {
         public IHttpActionResult InputOffers(Offer offer)
         {
-            using(var db = new OffersDataBaseEntities())
+            using(var db = new OfferDBEntities())
             {
                 db.Offers.Add(offer);
+               // var city = new City(offer.CityId, offer.CityName, offer.StateName, 100, 200);
+               // db.Cities.Add(city);
+                db.Cities.Where(c => c.Id == offer.CityId).SingleOrDefault();
                 db.SaveChanges();
                 return this.Ok();
             }

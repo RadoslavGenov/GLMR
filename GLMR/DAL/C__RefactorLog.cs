@@ -12,14 +12,8 @@ namespace DAL
     using System;
     using System.Collections.Generic;
     
-    public partial class City
+    public partial class C__RefactorLog
     {
-        public int Id { get; set; }
-        public string CityName { get; set; }
-        public string StateName { get; set; }
-        public int Housing { get; set; }
-        public int Living { get; set; }
-    
-        public virtual Offer Offer { get; set; }
+        public System.Guid OperationKey { get; set; }
     }
 }

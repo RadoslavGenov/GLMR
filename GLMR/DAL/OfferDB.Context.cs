@@ -13,10 +13,10 @@ namespace DAL
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class OffersDataBaseEntities : DbContext
+    public partial class OfferDBEntities : DbContext
     {
-        public OffersDataBaseEntities()
-            : base("name=OffersDataBaseEntities")
+        public OfferDBEntities()
+            : base("name=OfferDBEntities")
         {
         }
     
@@ -25,6 +25,7 @@ namespace DAL
             throw new UnintentionalCodeFirstException();
         }
     
+        public virtual DbSet<C__RefactorLog> C__RefactorLog { get; set; }
         public virtual DbSet<City> Cities { get; set; }
         public virtual DbSet<Offer> Offers { get; set; }
     }

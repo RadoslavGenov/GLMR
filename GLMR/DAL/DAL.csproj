@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{CCED4220-87AB-4FF8-B74A-0D666632A848}</ProjectGuid>
+    <ProjectGuid>{44C4A993-732F-4706-9543-BDD360A4653D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>DAL</RootNamespace>
@@ -52,56 +52,57 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="City.cs">
-      <DependentUpon>OffersDataBase.tt</DependentUpon>
+      <DependentUpon>OfferDB.tt</DependentUpon>
     </Compile>
     <Compile Include="Class1.cs" />
+    <Compile Include="C__RefactorLog.cs">
+      <DependentUpon>OfferDB.tt</DependentUpon>
+    </Compile>
     <Compile Include="Offer.cs">
-      <DependentUpon>OffersDataBase.tt</DependentUpon>
+      <DependentUpon>OfferDB.tt</DependentUpon>
     </Compile>
-    <Compile Include="OffersDataBase.Context.cs">
+    <Compile Include="OfferDB.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>OffersDataBase.Context.tt</DependentUpon>
+      <DependentUpon>OfferDB.Context.tt</DependentUpon>
     </Compile>
-    <Compile Include="OffersDataBase.cs">
+    <Compile Include="OfferDB.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>OffersDataBase.tt</DependentUpon>
+      <DependentUpon>OfferDB.tt</DependentUpon>
     </Compile>
-    <Compile Include="OffersDataBase.Designer.cs">
+    <Compile Include="OfferDB.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>OffersDataBase.edmx</DependentUpon>
+      <DependentUpon>OfferDB.edmx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <EntityDeploy Include="OffersDataBase.edmx">
-      <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>OffersDataBase.Designer.cs</LastGenOutput>
-    </EntityDeploy>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="App.Config" />
-    <None Include="OffersDataBase.edmx.diagram">
-      <DependentUpon>OffersDataBase.edmx</DependentUpon>
+    <EntityDeploy Include="OfferDB.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>OfferDB.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="OfferDB.edmx.diagram">
+      <DependentUpon>OfferDB.edmx</DependentUpon>
     </None>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="OffersDataBase.Context.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>OffersDataBase.edmx</DependentUpon>
-      <LastGenOutput>OffersDataBase.Context.cs</LastGenOutput>
-    </Content>
-    <Content Include="OffersDataBase.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>OffersDataBase.edmx</DependentUpon>
-      <LastGenOutput>OffersDataBase.cs</LastGenOutput>
-    </Content>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>
-    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+    <Content Include="OfferDB.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>OfferDB.edmx</DependentUpon>
+      <LastGenOutput>OfferDB.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="OfferDB.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>OfferDB.edmx</DependentUpon>
+      <LastGenOutput>OfferDB.cs</LastGenOutput>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

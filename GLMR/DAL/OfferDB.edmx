@@ -4,25 +4,29 @@
   <edmx:Runtime>
     <!-- SSDL content -->
     <edmx:StorageModels>
-      <Schema Namespace="OffersDataBaseModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+      <Schema Namespace="OfferDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="__RefactorLog">
+          <Key>
+            <PropertyRef Name="OperationKey" />
+          </Key>
+          <Property Name="OperationKey" Type="uniqueidentifier" Nullable="false" />
+        </EntityType>
         <EntityType Name="Cities">
           <Key>
             <PropertyRef Name="Id" />
           </Key>
-          <Property Name="Id" Type="int" Nullable="false" />
-          <Property Name="CityName" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="CityName" Type="varchar" MaxLength="100" Nullable="false" />
           <Property Name="StateName" Type="varchar" MaxLength="20" Nullable="false" />
-          <Property Name="HousingL" Type="int" Nullable="false" />
-          <Property Name="HousingU" Type="int" Nullable="false" />
-          <Property Name="LivingL" Type="int" Nullable="false" />
-          <Property Name="LivingU" Type="int" Nullable="false" />
+          <Property Name="Housing" Type="int" Nullable="false" />
+          <Property Name="Living" Type="int" Nullable="false" />
         </EntityType>
         <EntityType Name="Offers">
           <Key>
-            <PropertyRef Name="Id" />
+            <PropertyRef Name="CityId" />
           </Key>
-          <Property Name="Id" Type="int" Nullable="false" />
           <Property Name="CityId" Type="int" Nullable="false" />
+          <Property Name="CityName" Type="varchar" MaxLength="100" Nullable="false" />
           <Property Name="StateName" Type="varchar" MaxLength="15" Nullable="false" />
           <Property Name="Position" Type="varchar" MaxLength="30" Nullable="false" />
           <Property Name="Wage" Type="int" Nullable="false" />
@@ -34,7 +38,7 @@
         </EntityType>
         <Association Name="OffersFK">
           <End Role="Cities" Type="Self.Cities" Multiplicity="1" />
-          <End Role="Offers" Type="Self.Offers" Multiplicity="*" />
+          <End Role="Offers" Type="Self.Offers" Multiplicity="0..1" />
           <ReferentialConstraint>
             <Principal Role="Cities">
               <PropertyRef Name="Id" />
@@ -44,7 +48,8 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <EntityContainer Name="OffersDataBaseModelStoreContainer">
+        <EntityContainer Name="OfferDBModelStoreContainer">
+          <EntitySet Name="__RefactorLog" EntityType="Self.__RefactorLog" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Cities" EntityType="Self.Cities" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Offers" EntityType="Self.Offers" Schema="dbo" store:Type="Tables" />
           <AssociationSet Name="OffersFK" Association="Self.OffersFK">
@@ -56,26 +61,30 @@
     </edmx:StorageModels>
     <!-- CSDL content -->
     <edmx:ConceptualModels>
-      <Schema Namespace="OffersDataBaseModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+      <Schema Namespace="OfferDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="C__RefactorLog">
+          <Key>
+            <PropertyRef Name="OperationKey" />
+          </Key>
+          <Property Name="OperationKey" Type="Guid" Nullable="false" />
+        </EntityType>
         <EntityType Name="City">
           <Key>
             <PropertyRef Name="Id" />
           </Key>
-          <Property Name="Id" Type="Int32" Nullable="false" />
-          <Property Name="CityName" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="CityName" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
           <Property Name="StateName" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
-          <Property Name="HousingL" Type="Int32" Nullable="false" />
-          <Property Name="HousingU" Type="Int32" Nullable="false" />
-          <Property Name="LivingL" Type="Int32" Nullable="false" />
-          <Property Name="LivingU" Type="Int32" Nullable="false" />
-          <NavigationProperty Name="Offers" Relationship="Self.OffersFK" FromRole="Cities" ToRole="Offers" />
+          <Property Name="Housing" Type="Int32" Nullable="false" />
+          <Property Name="Living" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Offer" Relationship="Self.OffersFK" FromRole="Cities" ToRole="Offers" />
         </EntityType>
         <EntityType Name="Offer">
           <Key>
-            <PropertyRef Name="Id" />
+            <PropertyRef Name="CityId" />
           </Key>
-          <Property Name="Id" Type="Int32" Nullable="false" />
           <Property Name="CityId" Type="Int32" Nullable="false" />
+          <Property Name="CityName" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
           <Property Name="StateName" Type="String" MaxLength="15" FixedLength="false" Unicode="false" Nullable="false" />
           <Property Name="Position" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
           <Property Name="Wage" Type="Int32" Nullable="false" />
@@ -88,7 +97,7 @@
         </EntityType>
         <Association Name="OffersFK">
           <End Role="Cities" Type="Self.City" Multiplicity="1" />
-          <End Role="Offers" Type="Self.Offer" Multiplicity="*" />
+          <End Role="Offers" Type="Self.Offer" Multiplicity="0..1" />
           <ReferentialConstraint>
             <Principal Role="Cities">
               <PropertyRef Name="Id" />
@@ -98,7 +107,8 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <EntityContainer Name="OffersDataBaseEntities" annotation:LazyLoadingEnabled="true">
+        <EntityContainer Name="OfferDBEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="C__RefactorLog" EntityType="Self.C__RefactorLog" />
           <EntitySet Name="Cities" EntityType="Self.City" />
           <EntitySet Name="Offers" EntityType="Self.Offer" />
           <AssociationSet Name="OffersFK" Association="Self.OffersFK">
@@ -111,25 +121,30 @@
     <!-- C-S mapping content -->
     <edmx:Mappings>
       <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-        <EntityContainerMapping StorageEntityContainer="OffersDataBaseModelStoreContainer" CdmEntityContainer="OffersDataBaseEntities">
+        <EntityContainerMapping StorageEntityContainer="OfferDBModelStoreContainer" CdmEntityContainer="OfferDBEntities">
+          <EntitySetMapping Name="C__RefactorLog">
+            <EntityTypeMapping TypeName="OfferDBModel.C__RefactorLog">
+              <MappingFragment StoreEntitySet="__RefactorLog">
+                <ScalarProperty Name="OperationKey" ColumnName="OperationKey" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
           <EntitySetMapping Name="Cities">
-            <EntityTypeMapping TypeName="OffersDataBaseModel.City">
+            <EntityTypeMapping TypeName="OfferDBModel.City">
               <MappingFragment StoreEntitySet="Cities">
                 <ScalarProperty Name="Id" ColumnName="Id" />
                 <ScalarProperty Name="CityName" ColumnName="CityName" />
                 <ScalarProperty Name="StateName" ColumnName="StateName" />
-                <ScalarProperty Name="HousingL" ColumnName="HousingL" />
-                <ScalarProperty Name="HousingU" ColumnName="HousingU" />
-                <ScalarProperty Name="LivingL" ColumnName="LivingL" />
-                <ScalarProperty Name="LivingU" ColumnName="LivingU" />
+                <ScalarProperty Name="Housing" ColumnName="Housing" />
+                <ScalarProperty Name="Living" ColumnName="Living" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="Offers">
-            <EntityTypeMapping TypeName="OffersDataBaseModel.Offer">
+            <EntityTypeMapping TypeName="OfferDBModel.Offer">
               <MappingFragment StoreEntitySet="Offers">
-                <ScalarProperty Name="Id" ColumnName="Id" />
                 <ScalarProperty Name="CityId" ColumnName="CityId" />
+                <ScalarProperty Name="CityName" ColumnName="CityName" />
                 <ScalarProperty Name="StateName" ColumnName="StateName" />
                 <ScalarProperty Name="Position" ColumnName="Position" />
                 <ScalarProperty Name="Wage" ColumnName="Wage" />

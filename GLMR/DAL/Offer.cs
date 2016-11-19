@@ -11,12 +11,11 @@ namespace DAL
 {
     using System;
     using System.Collections.Generic;
-    using System.ComponentModel.DataAnnotations;
-
+    
     public partial class Offer
     {
-        public int Id { get; set; }
         public int CityId { get; set; }
+        public string CityName { get; set; }
         public string StateName { get; set; }
         public string Position { get; set; }
         public int Wage { get; set; }
