@@ -241,25 +241,64 @@
 var nlform = new NLForm(document.getElementById('nl-form'));
 $('.nl-submit').click(function()
 {
-    if($('.agencyFee').val()  == 'cash'     || $('.agencyFee').val()  == ''     || $('.visaFee').val()  == 'cash'   || $('.visaFee').val()  == ''
-        || $('.travelFee').val()  == 'cash' || $('.travelFee').val()  == ''     || $('.insFee').val()  == 'cash'    || $('.insFee').val()  == ''
-        || $('.state').val()  == 'state'    || $('.insFee').val()  == 'cash'    || $('.insFee').val()  == '' )
+    if(false)
     {
         $('.send-fail').fadeIn().delay(3000).fadeOut('slow');
     }
     else{
+        var expenses = parseInt($('.agencyFee').val()) + parseInt($('.visaFee').val()) + parseInt($('.travelFee').val()) + parseInt($('.insFee').val());
+        var target = parseInt($('.target').val());
+        var string = $('.sDate').val();
+        var string1 = $('.eDate').val();
+        var state = $('.state').val();
+        var d = parseInt(string.substring(0, string.indexOf(".")));
+        var m = parseInt(string.substring(string.indexOf(".")+1, string.lastIndexOf(".")));
+        var d1 = parseInt(string1.substring(0, string1.indexOf(".")));
+        var m1 = parseInt(string1.substring(string1.indexOf(".")+1, string1.lastIndexOf(".")));
+        var days= 0;
+        var weeks = 0;
+
+        while(true){
+            if(m == m1){
+                days += d1-d;
+                break;
+            }
+            days += 31-d;
+            m += 1;
+            d = 0;
+        }
+        weeks = parseInt(days) / 7;
+        weeks = parseInt(weeks);
+
+        var json =
+        '{\n\t"Expenses": ' + expenses + ',\n' + '\t"Target": ' +  target + ',\n' + '\t"State": "' +  state + '",\n' + '\t"Weeks": ' +  weeks + '\n}';
         $.post("sender.php", $("#nl-form").serialize(), function(data) {});
+        console.log(json);
+
         function clear() {
-            
             $('form .nl-field .nl-field-toggle').text('cash');
-
+            $('.state + br + .nl-field .nl-field-toggle').text('that date');
+            $('.sDate + .nl-field .nl-field-toggle').text('that date');
             $('.insFee + br +br + .nl-field .nl-field-toggle').text('state');
-            $('form input').val('');
 
+            $('form input').val('');
             $('.insFee + br + br + .nl-field ul li').removeClass('nl-dd-checked');
             $('.insFee + br + br + .nl-field ul li:first-of-type').addClass('nl-dd-checked');
-        }
-        window.setTimeout(clear, 800);
+
+            $(".results").show();
+            $("#res1").show();
+            function show2() {
+                $("#res2").show();
+            }
+            window.setTimeout(show2, 1000);
+            function show3() {
+                $("#res3").show();
+            }
+            window.setTimeout(show3, 1200);
+    }
+
+     window.setTimeout(clear, 800);
+
     }
 
     

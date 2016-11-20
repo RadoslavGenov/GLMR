@@ -24,7 +24,6 @@ a:hover {
     font-family: 'Lato', Calibri, Arial, sans-serif;
     color: #333;
     font-weight: 300;
-    overflow-x: hidden
 }
 .apply a {
     color: #FA6F1C;
@@ -354,14 +353,93 @@ font-size: 5em;
 
 .results{
     border: 1px solid black;
-    width: 70%;
+    width: 60%;
     margin: 50px auto;
+    
+    background: url("../images/6.jpg") no-repeat;
+    background-size: cover;
+    display: none;
+
 }
 .result{
     height: 100px;
     width: 100%;
-    margin: 10px;
-    border: 1px solid red;
-    background-image: url("../images/1.jpg");
-    background-size: cover;
+    margin: 0 0 10px;
+    color: black;
+    position: relative;
+    border-bottom: 1px dashed white;
+    display: none;
+}
+.results:nth-child(3){
+    border: none;
+}
+.jPosition{
+    position: absolute;
+    top: -10px;
+    left: 5px;
+    font-size: 3em;
+    color: white;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 1);;
+}
+.jPlace{
+    position: absolute;
+    bottom: 10px;
+    left: 30px;
+    font-size: 2em;
+    color: white;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 1);
+}
+.jWage{
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    font-size: 2em;
+    color: white;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 1);
+}
+.jHours{
+    position: absolute;
+    top: 10px;
+    right: 40%;
+    font-size: 2em;
+    color: white;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 1);
+}
+.jHours:after{
+    content: " h/week";
+}
+.jWage:before{
+    content:"USD ";
+}
+.jWage:after{
+    content:".00";
+}
+
+.jLink a, .jLink a:active, .jLink a:visited, .jLink a:hover, .jLink a:active{
+    transition: all 0.5s ease;
+    font-size: 2em;
+    color: white;
+    text-decoration: none;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 1);
+    position: absolute;
+    bottom: 10px;
+    right: 30px;
+}
+.jLink a:hover{
+    right:20px;
+}
+.jLink a:after{
+    content:" \2192";
+}
+.icon{
+    position: relative;
+    width: 15px;
+    height: 15px;
+}
+.line1{
+    position: absolute;
+    width: 10px;
+    height: 1px;
+    background-color: white;
+    transform: rotate(45deg);
 }
