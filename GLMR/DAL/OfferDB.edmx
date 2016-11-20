@@ -11,6 +11,20 @@
           </Key>
           <Property Name="OperationKey" Type="uniqueidentifier" Nullable="false" />
         </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'OfferDB.dbo.Calculation' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="Calculation">
+          <Key>
+            <PropertyRef Name="Expenses" />
+            <PropertyRef Name="Target" />
+            <PropertyRef Name="Weeks" />
+            <PropertyRef Name="State" />
+          </Key>
+          <Property Name="Expenses" Type="int" Nullable="false" />
+          <Property Name="Target" Type="int" Nullable="false" />
+          <Property Name="Weeks" Type="int" Nullable="false" />
+          <Property Name="State" Type="varchar(max)" Nullable="false" />
+        </EntityType>
         <EntityType Name="Cities">
           <Key>
             <PropertyRef Name="Id" />
@@ -25,7 +39,7 @@
           <Key>
             <PropertyRef Name="CityId" />
           </Key>
-          <Property Name="CityId" Type="int" Nullable="false" />
+          <Property Name="CityId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="CityName" Type="varchar" MaxLength="100" Nullable="false" />
           <Property Name="StateName" Type="varchar" MaxLength="15" Nullable="false" />
           <Property Name="Position" Type="varchar" MaxLength="30" Nullable="false" />
@@ -52,6 +66,14 @@
           <EntitySet Name="__RefactorLog" EntityType="Self.__RefactorLog" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Cities" EntityType="Self.Cities" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Offers" EntityType="Self.Offers" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Calculation" EntityType="Self.Calculation" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [Calculation].[Expenses] AS [Expenses], 
+    [Calculation].[Target] AS [Target], 
+    [Calculation].[Weeks] AS [Weeks], 
+    [Calculation].[State] AS [State]
+    FROM [dbo].[Calculation] AS [Calculation]</DefiningQuery>
+          </EntitySet>
           <AssociationSet Name="OffersFK" Association="Self.OffersFK">
             <End Role="Cities" EntitySet="Cities" />
             <End Role="Offers" EntitySet="Offers" />
@@ -83,7 +105,7 @@
           <Key>
             <PropertyRef Name="CityId" />
           </Key>
-          <Property Name="CityId" Type="Int32" Nullable="false" />
+          <Property Name="CityId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="CityName" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
           <Property Name="StateName" Type="String" MaxLength="15" FixedLength="false" Unicode="false" Nullable="false" />
           <Property Name="Position" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
@@ -94,6 +116,18 @@
           <Property Name="EndDate" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
           <Property Name="Link" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" Nullable="false" />
           <NavigationProperty Name="City" Relationship="Self.OffersFK" FromRole="Offers" ToRole="Cities" />
+        </EntityType>
+        <EntityType Name="Calculation">
+          <Key>
+            <PropertyRef Name="Expenses" />
+            <PropertyRef Name="Target" />
+            <PropertyRef Name="Weeks" />
+            <PropertyRef Name="State" />
+          </Key>
+          <Property Name="Expenses" Type="Int32" Nullable="false" />
+          <Property Name="Target" Type="Int32" Nullable="false" />
+          <Property Name="Weeks" Type="Int32" Nullable="false" />
+          <Property Name="State" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
         </EntityType>
         <Association Name="OffersFK">
           <End Role="Cities" Type="Self.City" Multiplicity="1" />
@@ -111,6 +145,7 @@
           <EntitySet Name="C__RefactorLog" EntityType="Self.C__RefactorLog" />
           <EntitySet Name="Cities" EntityType="Self.City" />
           <EntitySet Name="Offers" EntityType="Self.Offer" />
+          <EntitySet Name="Calculations" EntityType="Self.Calculation" />
           <AssociationSet Name="OffersFK" Association="Self.OffersFK">
             <End Role="Cities" EntitySet="Cities" />
             <End Role="Offers" EntitySet="Offers" />
@@ -153,6 +188,16 @@
                 <ScalarProperty Name="StartDate" ColumnName="StartDate" />
                 <ScalarProperty Name="EndDate" ColumnName="EndDate" />
                 <ScalarProperty Name="Link" ColumnName="Link" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Calculations">
+            <EntityTypeMapping TypeName="OfferDBModel.Calculation">
+              <MappingFragment StoreEntitySet="Calculation">
+                <ScalarProperty Name="Expenses" ColumnName="Expenses" />
+                <ScalarProperty Name="Target" ColumnName="Target" />
+                <ScalarProperty Name="Weeks" ColumnName="Weeks" />
+                <ScalarProperty Name="State" ColumnName="State" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>

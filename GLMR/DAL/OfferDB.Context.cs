@@ -28,5 +28,6 @@ namespace DAL
         public virtual DbSet<C__RefactorLog> C__RefactorLog { get; set; }
         public virtual DbSet<City> Cities { get; set; }
         public virtual DbSet<Offer> Offers { get; set; }
+        public virtual DbSet<Calculation> Calculations { get; set; }
     }
 }

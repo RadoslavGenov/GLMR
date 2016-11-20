@@ -62,7 +62,7 @@
     <Build Include="Cities.sql" />
     <Build Include="Offers.sql" />
     <Build Include="OffersFK.sql" />
-    <Build Include="Insert.sql" />
+    <Build Include="Calculation.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="GLMR.refactorlog" />
