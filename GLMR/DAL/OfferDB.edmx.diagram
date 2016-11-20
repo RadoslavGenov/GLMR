@@ -4,10 +4,11 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="abd41d097f764bc89c494923bc47aa0e" Name="Diagram1">
+      <Diagram DiagramId="456c1fb20a6e476fa0a4539879db558e" Name="Diagram1">
         <EntityTypeShape EntityType="OfferDBModel.C__RefactorLog" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
         <EntityTypeShape EntityType="OfferDBModel.City" Width="1.5" PointX="0.75" PointY="1.5" IsExpanded="true" />
         <EntityTypeShape EntityType="OfferDBModel.Offer" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="OfferDBModel.Calculation" Width="1.5" PointX="0.75" PointY="5.75" IsExpanded="true" />
         <AssociationConnector Association="OfferDBModel.OffersFK" ManuallyRouted="false" />
       </Diagram>
     </edmx:Diagrams>
