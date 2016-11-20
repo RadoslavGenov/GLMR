@@ -51,7 +51,13 @@ var nRequests = 0;
 				    	+ '\t"WorkingHours": ' + parseInt(workinghours) + ',\n'+ '\t"Overtime": "' + overtime + '",\n'
 				    	+ '\t"StartDate": "' + startdate + '",\n'+ '\t"EndDate": "' + enddate + '",\n'
 				    	 + '\t"Link": "' + link + '",\n},\n');
+					
+				    fs.appendFileSync('output.txt', city + "\n");
+					fs.appendFileSync('output1.txt', state + "\n");
 					});
+
+					
+					
 
 				++nRequests;
 		  		if(nRequests>2) return;
@@ -77,7 +83,10 @@ var nRequest = 107;
 
 				var state = $('#offer-table tr:nth-child(1) td:nth-child(1) span:nth-child(2)').text().trim();
 			   	var city =  $('#offer-table tr:nth-child(1) td:nth-child(2) span:nth-child(2)').text().trim();
-			   	state = state.substring(state.indexOf("(")+1, state.indexOf(")"));
+			   	if(city.includes(", ") == true){
+			   		city.substring(0, city.indexOf(", "));
+			   	}
+			   	if(state.includes("(")) state = state.substring(state.indexOf("(")+1, state.indexOf(")"));
 			   	var position = $('#offer-table tr:nth-child(2) td:nth-child(1) span:nth-child(2)').text().trim();
 			   	if(position.includes(","))	position = position.substring(0, position.indexOf(","));
 			   	
@@ -121,6 +130,8 @@ var nRequest = 107;
 			    	+ '\t"WorkingHours": ' + parseInt(workinghours) + ',\n'+ '\t"Overtime": "' + overtime + '",\n'
 			    	+ '\t"StartDate": "' + startdate + '",\n'+ '\t"EndDate": "' + enddate + '",\n'
 			    	 + '\t"Link": "' + link + '",\n},\n');
+			    	 fs.appendFileSync('output.txt', city + "\n");
+					fs.appendFileSync('output1.txt', state + "\n");
 			}
 				++nRequest;
 		  		if(nRequest>520) return;

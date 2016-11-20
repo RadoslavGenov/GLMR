@@ -6,77 +6,49 @@
 </head>
 <body>
 
-
+<div class="logo"><span class="b">work </span><span class="r">U</span><span class="r">S<span></div>
 
 <div class="main clearfix">
-					<form id="nl-form" class="nl-form" method="POST">
-					My name is 
-					<input type="text" value="" class="u_name" name="u_name" autofocus placeholder="your name" data-subline="For example: <em>Jon</em> or <em>Jon Snow</em>"/>
-					, I am 
-					<input type="text" value="" class="age" name="age" autofocus placeholder="your age" data-subline="For example: <em>ten</em> or <em>10</em>"/>
-					years old.<br>
-						I feel like learning
-						<select class="first" name="first">
-							<option disabled="disabled" selected value="0">something</option>
-							<option value="C++">C++</option>
-							<option value="Web design">Web design</option>
-							<option value="Mobile Apps development">Mobile Apps development</option>
-							<option value="SEO.">SEO.</option>
-							<option value="Front-end Frameworks.">Front-end Frameworks.</option>
-						</select>
-						, and 
-						<select class="second" name="second">
-							<option disabled selected value="0">something else</option>
-							<option value="nothing else">nothing else</option>
-							<option value="&nbsp; and C++">C++.</option>
-							<option value=",&nbsp; and Web design.">Web design.</option>
-							<option value=",&nbsp; and Mobile Apps development.">Mobile Apps development.</option>
-							<option value=",&nbsp; and SEO.">SEO.</option>
-							<option value=",&nbsp; and Front-end Frameworks.">Front-end Frameworks.</option>
-						</select><br>
-						I have
-						<select class="experience" name="experience">
-							<option disabled selected value="0">select one</option>
-							<option value="no ">no</option>
-							<option value="some ">some</option>
-						</select>
-						prior experience in programing.<br>
-						I live in
-						<input type="text" value="" class="city" name="city" autofocus placeholder="any city" data-subline="For example: <em>Los Angeles</em> or <em>Boston (MA)</em>"/>.<br>
-						I would like to be contacted here:
-						<input type="text" class="email" name="email" value="" autofocus placeholder="your email" data-subline="For example: <em>someone@example.com</em>"/>
-						<div class="nl-submit-wrap">
-							<div class="nl-submit">Apply Now</div>
-						</div>
-						<div class="nl-overlay"></div>
-					</form>
-					<div class="send-message send-success">
-						<p><strong><i class="fa fa-check" aria-hidden="true"></i> &nbsp;&nbsp;Your Message was sent successfully!</strong></p>
-					</div>
-					<div class="send-message send-fail">
-						<p><strong><i class="fa fa-times" aria-hidden="true"></i> &nbsp;&nbsp;Your Message was not sent!<br>Please fill all fields!</strong></p>
-					</div>
-				</div>
+	<form class="nl-form" id="nl-form" method="post" name="nl-form">
+		I want to work in the States this summer.<br>
+		I paid USD
+		<input autofocus="" class="agencyFee" data-subline="For example: <em>400</em> or <em>900.00</em>" name="agencyFee" placeholder="cash" type="text" value="">
+		as Agency fee;<br>
+		And Another USD
+		<input autofocus="" class="visaFee" data-subline="For example: <em>400</em> or <em>900.00</em>" name="visaFee" placeholder="cash" type="text" value="">
+		for the visa.<br>
+		My travel expenses will be roughly USD
+		<input autofocus="" class="travelFee" data-subline="For example: <em>400</em> or <em>900.00</em>" name="travelFee" placeholder="cash" type="text" value="">
+		.<br>
+		And the Insurance fee will cost me another USD
+		<input autofocus="" class="insFee" data-subline="For example: <em>400</em> or <em>900.00</em>" name="insFee" placeholder="cash" type="text" value="">
+		.<br><br>
+		I feel like working in
+		<select class="state" name="state">
+			<option disabled="disabled" selected value="0"> state </option>
+			<option value="MA">	MA </option>
+			<option value="WA">	WA </option>
+			<option value="PA">	PA </option>
+			<option value="CA">	CA </option>
+			<option value="AK">	AK </option>
+		</select><br>
 
+		In the end when I come back, I would love<br>
+		to have USD <input autofocus="" class="target" data-subline="For example: <em>400</em> or <em>900.00</em>" name="target" placeholder="cash" type="text" value="">
+		<div class="nl-submit-wrap">
+			<div class="nl-submit">
+				Scan for an Offer
+			</div>
+		</div>
+		<div class="nl-overlay"></div>
+	</form>
+</div>
 
-	<div class="FixedCost" style="background-color: yellow;">
-		<form action="">
-			Agency fee: <input id="Agency" type="number" value="34">
-			Visa fee: <input id="Visa" type="number" value="45">
-			Insurance fee: <input id="Insurance" type="number" value="56">
-			Travel fee: <input id="Travel" type="number" value="67">
-			Amount You Need!!! <input id="Money" type="number" value="10000">
-		</form>
-		<button onclick="GetValues()" type="button">Submit</button>
-	</div>
-	<div class="Results" style="background-color: red;">
-		<p id="result1"></p>
-		<p id="result2"></p>
-		<p id="result3"></p>
-		<p id="result4"></p>
-		<p id="result5"></p>
-	</div>
-
+<div class="results">
+	<div class="result"></div>
+	<div class="result"></div>
+	<div class="result"></div>
+</div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
 <script src="assets/js/scripts.js"></script>

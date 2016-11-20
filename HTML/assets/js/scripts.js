@@ -241,27 +241,23 @@
 var nlform = new NLForm(document.getElementById('nl-form'));
 $('.nl-submit').click(function()
 {
-    if($('.u_name').val()  == 'your name' || $('.u_name').val()  == '' || $('.age').val()  == 'your age' || $('.age').val()  == '' || $('.city').val()  == 'any city' ||
-    $('.first').val()  == 'something' || $('.second').val()  == 'something else' || $('.experience').val()  == 'select one' || $('.email').val()  == 'your email' || $('.email').val()  == '') {
+    if($('.agencyFee').val()  == 'cash'     || $('.agencyFee').val()  == ''     || $('.visaFee').val()  == 'cash'   || $('.visaFee').val()  == ''
+        || $('.travelFee').val()  == 'cash' || $('.travelFee').val()  == ''     || $('.insFee').val()  == 'cash'    || $('.insFee').val()  == ''
+        || $('.state').val()  == 'state'    || $('.insFee').val()  == 'cash'    || $('.insFee').val()  == '' )
+    {
         $('.send-fail').fadeIn().delay(3000).fadeOut('slow');
-    }else{
+    }
+    else{
         $.post("sender.php", $("#nl-form").serialize(), function(data) {});
         function clear() {
-            $('.send-success').fadeIn().delay(3000).fadeOut('slow');
-            $('form .nl-field .nl-field-toggle').text('your name');
-            $('.u_name + .nl-field .nl-field-toggle').text('your age');
-            $('.age + br + .nl-field .nl-field-toggle').text('something');
-            $('.first + .nl-field .nl-field-toggle').text('something else');
-            $('.second + br + .nl-field .nl-field-toggle').text('select one');
-            $('.experience + br + .nl-field .nl-field-toggle').text('any city');
-            $('.city + br + .nl-field .nl-field-toggle').text('your email');
+            
+            $('form .nl-field .nl-field-toggle').text('cash');
+
+            $('.insFee + br +br + .nl-field .nl-field-toggle').text('state');
             $('form input').val('');
-            $('.age + br + .nl-field ul li').removeClass('nl-dd-checked');
-            $('.age + br + .nl-field ul li:first-of-type').addClass('nl-dd-checked');
-            $('.first + .nl-field ul li').removeClass('nl-dd-checked');
-            $('.first + .nl-field ul li:first-of-type').addClass('nl-dd-checked');
-            $('.second + br + .nl-field ul li').removeClass('nl-dd-checked');
-            $('.second + br + .nl-field ul li:first-of-type').addClass('nl-dd-checked');
+
+            $('.insFee + br + br + .nl-field ul li').removeClass('nl-dd-checked');
+            $('.insFee + br + br + .nl-field ul li:first-of-type').addClass('nl-dd-checked');
         }
         window.setTimeout(clear, 800);
     }
