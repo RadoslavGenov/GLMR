@@ -374,7 +374,7 @@
 },
 {
 	"CityName": "Jackson",
-	"StateName": "Wyoming",
+	"StateName": "WY",
 	"Position": "Waitress/waiter",
 	"Wage": 2,
 	"WorkingHours": 40,
@@ -385,7 +385,7 @@
 },
 {
 	"CityName": "Buffalo",
-	"StateName": "Wyoming",
+	"StateName": "WY",
 	"Position": "Housekeeper",
 	"Wage": 8,
 	"WorkingHours": 37,
@@ -396,7 +396,7 @@
 },
 {
 	"CityName": "Cody",
-	"StateName": "Wyoming",
+	"StateName": "WY",
 	"Position": "Housekeeper",
 	"Wage": 9,
 	"WorkingHours": 36,
@@ -407,7 +407,7 @@
 },
 {
 	"CityName": "Wisconsin Dells",
-	"StateName": "Wisconsin",
+	"StateName": "WI",
 	"Position": "Housekeeper",
 	"Wage": 8,
 	"WorkingHours": 37,
@@ -418,7 +418,7 @@
 },
 {
 	"CityName": "Eagle River",
-	"StateName": "Wisconsin",
+	"StateName": "WI",
 	"Position": "Housekeeper",
 	"Wage": 8,
 	"WorkingHours": 37,
@@ -429,7 +429,7 @@
 },
 {
 	"CityName": "Wisconsin Dells",
-	"StateName": "Wisconsin",
+	"StateName": "WI",
 	"Position": "Imaging Sales Associate",
 	"Wage": 8,
 	"WorkingHours": 32,
@@ -440,7 +440,7 @@
 },
 {
 	"CityName": "Sister Bay",
-	"StateName": "Wisconsin",
+	"StateName": "WI",
 	"Position": "Housekeeper",
 	"Wage": 9,
 	"WorkingHours": 32,
@@ -451,7 +451,7 @@
 },
 {
 	"CityName": "Sister Bay",
-	"StateName": "Wisconsin",
+	"StateName": "WI",
 	"Position": "Housekeeper",
 	"Wage": 9,
 	"WorkingHours": 36,
@@ -462,7 +462,7 @@
 },
 {
 	"CityName": "Wisconsin Dells",
-	"StateName": "Wisconsin",
+	"StateName": "WI",
 	"Position": "Store attendants and candy maker",
 	"Wage": 7,
 	"WorkingHours": 36,
@@ -473,7 +473,7 @@
 },
 {
 	"CityName": "Wisconsin Dells",
-	"StateName": "Wisconsin",
+	"StateName": "WI",
 	"Position": "cashier",
 	"Wage": 9,
 	"WorkingHours": 33,
@@ -484,7 +484,7 @@
 },
 {
 	"CityName": "Marblemount",
-	"StateName": "Washington",
+	"StateName": "WA",
 	"Position": "Waitress",
 	"Wage": 9,
 	"WorkingHours": 37,
@@ -495,7 +495,7 @@
 },
 {
 	"CityName": "Burlington",
-	"StateName": "Vermont",
+	"StateName": "VT",
 	"Position": "Front desk",
 	"Wage": 9,
 	"WorkingHours": 32,
@@ -506,7 +506,7 @@
 },
 {
 	"CityName": "Burlington",
-	"StateName": "Vermont",
+	"StateName": "VT",
 	"Position": "Food assistant",
 	"Wage": 9,
 	"WorkingHours": 32,
@@ -517,7 +517,7 @@
 },
 {
 	"CityName": "Pierre",
-	"StateName": "South Dakota",
+	"StateName": "SD",
 	"Position": "housekeeper",
 	"Wage": 9,
 	"WorkingHours": 32,
@@ -528,7 +528,7 @@
 },
 {
 	"CityName": "Hilton Head Island",
-	"StateName": "South Carolina",
+	"StateName": "SC",
 	"Position": "cashier",
 	"Wage": 8,
 	"WorkingHours": 36,
@@ -539,7 +539,7 @@
 },
 {
 	"CityName": "Charleston",
-	"StateName": "South Carolina",
+	"StateName": "SC",
 	"Position": "retail sales",
 	"Wage": 9,
 	"WorkingHours": 40,
@@ -550,7 +550,7 @@
 },
 {
 	"CityName": "Middletown",
-	"StateName": "Rhode Island",
+	"StateName": "RI",
 	"Position": "Housekeeper",
 	"Wage": 9,
 	"WorkingHours": 36,
@@ -561,7 +561,7 @@
 },
 {
 	"CityName": "Mason",
-	"StateName": "Ohio",
+	"StateName": "OH",
 	"Position": "Housekeeping",
 	"Wage": 8,
 	"WorkingHours": 40,
@@ -572,7 +572,7 @@
 },
 {
 	"CityName": "Lake George",
-	"StateName": "New York",
+	"StateName": "NY",
 	"Position": "Housekeeper",
 	"Wage": 8,
 	"WorkingHours": 33,
@@ -583,7 +583,7 @@
 },
 {
 	"CityName": "Lake George",
-	"StateName": "New York",
+	"StateName": "NY",
 	"Position": "Housekeepers",
 	"Wage": 9,
 	"WorkingHours": 30,
@@ -594,7 +594,7 @@
 },
 {
 	"CityName": "Bolton Landing",
-	"StateName": "New York",
+	"StateName": "NY",
 	"Position": "Housekeeper",
 	"Wage": 8,
 	"WorkingHours": 33,
@@ -605,7 +605,7 @@
 },
 {
 	"CityName": "Margaretville",
-	"StateName": "New York",
+	"StateName": "NY",
 	"Position": "Maintenance worker",
 	"Wage": 8,
 	"WorkingHours": 36,
@@ -616,7 +616,7 @@
 },
 {
 	"CityName": "Lake Placid",
-	"StateName": "New York",
+	"StateName": "NY",
 	"Position": "waitresses",
 	"Wage": 5,
 	"WorkingHours": 37,
@@ -627,7 +627,7 @@
 },
 {
 	"CityName": "Shelter Island",
-	"StateName": "New York",
+	"StateName": "NY",
 	"Position": "waitresses and bartenders",
 	"Wage": 5,
 	"WorkingHours": 37,
@@ -638,7 +638,7 @@
 },
 {
 	"CityName": "Amenia",
-	"StateName": "New York",
+	"StateName": "NY",
 	"Position": "server",
 	"Wage": 4,
 	"WorkingHours": 40,
@@ -649,7 +649,7 @@
 },
 {
 	"CityName": "Ocean Beach",
-	"StateName": "New York",
+	"StateName": "NY",
 	"Position": "customer service",
 	"Wage": 9,
 	"WorkingHours": 37,
@@ -660,7 +660,7 @@
 },
 {
 	"CityName": "Brooklyn",
-	"StateName": "New York",
+	"StateName": "NY",
 	"Position": "crew member",
 	"Wage": 9,
 	"WorkingHours": 31,
@@ -671,7 +671,7 @@
 },
 {
 	"CityName": "Brooklyn",
-	"StateName": "New York",
+	"StateName": "NY",
 	"Position": "cooks",
 	"Wage": 10,
 	"WorkingHours": 32,
@@ -682,7 +682,7 @@
 },
 {
 	"CityName": "Sea Isle City",
-	"StateName": "New Jersy",
+	"StateName": "NJ",
 	"Position": "Associates",
 	"Wage": 8,
 	"WorkingHours": 37,
@@ -693,7 +693,7 @@
 },
 {
 	"CityName": "Wildwood",
-	"StateName": "New Jersey",
+	"StateName": "NJ",
 	"Position": "customer service",
 	"Wage": 8,
 	"WorkingHours": 40,
@@ -704,7 +704,7 @@
 },
 {
 	"CityName": "Wildwood",
-	"StateName": "New Jersey",
+	"StateName": "NJ",
 	"Position": "Sales person",
 	"Wage": 8,
 	"WorkingHours": 36,
@@ -715,7 +715,7 @@
 },
 {
 	"CityName": "Wildwood",
-	"StateName": "New Jersey",
+	"StateName": "NJ",
 	"Position": "seller",
 	"Wage": 8,
 	"WorkingHours": 36,
@@ -726,7 +726,7 @@
 },
 {
 	"CityName": "Hampton",
-	"StateName": "New Hampshire",
+	"StateName": "NH",
 	"Position": "cashier",
 	"Wage": 7,
 	"WorkingHours": 36,
@@ -737,7 +737,7 @@
 },
 {
 	"CityName": "Hampton",
-	"StateName": "New Hampshire",
+	"StateName": "NH",
 	"Position": "crew member",
 	"Wage": 8,
 	"WorkingHours": 32,
@@ -748,7 +748,7 @@
 },
 {
 	"CityName": "Hampton",
-	"StateName": "New Hampshire",
+	"StateName": "NH",
 	"Position": "housekeeper",
 	"Wage": 7,
 	"WorkingHours": 32,
@@ -759,7 +759,7 @@
 },
 {
 	"CityName": "West Lebanon",
-	"StateName": "New Hampshire",
+	"StateName": "NH",
 	"Position": "crew member",
 	"Wage": 8,
 	"WorkingHours": 37,
@@ -770,7 +770,7 @@
 },
 {
 	"CityName": "Gardiner",
-	"StateName": "Montana",
+	"StateName": "MT",
 	"Position": "housekeeper",
 	"Wage": 8,
 	"WorkingHours": 40,
@@ -781,7 +781,7 @@
 },
 {
 	"CityName": "Ennis",
-	"StateName": "Montana",
+	"StateName": "MT",
 	"Position": "Housekeeper",
 	"Wage": 8,
 	"WorkingHours": 40,
@@ -792,7 +792,7 @@
 },
 {
 	"CityName": "West Yellowstone",
-	"StateName": "Montana",
+	"StateName": "MT",
 	"Position": "busser",
 	"Wage": 8,
 	"WorkingHours": 40,
@@ -803,7 +803,7 @@
 },
 {
 	"CityName": "Billings",
-	"StateName": "Montana",
+	"StateName": "MT",
 	"Position": "Host",
 	"Wage": 8,
 	"WorkingHours": 32,
@@ -814,7 +814,7 @@
 },
 {
 	"CityName": "Lutsen",
-	"StateName": "Minnesota",
+	"StateName": "MN",
 	"Position": "housekeeping",
 	"Wage": 8,
 	"WorkingHours": 40,
@@ -825,7 +825,7 @@
 },
 {
 	"CityName": "Grand Marais",
-	"StateName": "Minnesota",
+	"StateName": "MN",
 	"Position": "General resort worker",
 	"Wage": 7,
 	"WorkingHours": 35,
@@ -836,7 +836,7 @@
 },
 {
 	"CityName": "St. Ignace",
-	"StateName": "Michigan",
+	"StateName": "MI",
 	"Position": "cook",
 	"Wage": 8,
 	"WorkingHours": 40,
@@ -847,7 +847,7 @@
 },
 {
 	"CityName": "Dear born",
-	"StateName": "Michigan",
+	"StateName": "MI",
 	"Position": "housekeeper",
 	"Wage": 8,
 	"WorkingHours": 37,
@@ -858,7 +858,7 @@
 },
 {
 	"CityName": "Traverse city",
-	"StateName": "Michigan",
+	"StateName": "MI",
 	"Position": "sales position",
 	"Wage": 8,
 	"WorkingHours": 40,
@@ -869,7 +869,7 @@
 },
 {
 	"CityName": "Mackinaw City",
-	"StateName": "Michigan",
+	"StateName": "MI",
 	"Position": "housekeeper",
 	"Wage": 8,
 	"WorkingHours": 32,
@@ -880,7 +880,7 @@
 },
 {
 	"CityName": "West Yarmouth",
-	"StateName": "Massachusetts",
+	"StateName": "MA",
 	"Position": "sales associate",
 	"Wage": 8,
 	"WorkingHours": 37,
@@ -891,7 +891,7 @@
 },
 {
 	"CityName": "Yarmouth Port",
-	"StateName": "Massachusetts",
+	"StateName": "MA",
 	"Position": "housekeeper",
 	"Wage": 11,
 	"WorkingHours": 35,
@@ -902,7 +902,7 @@
 },
 {
 	"CityName": "Lee",
-	"StateName": "Massachusetts",
+	"StateName": "MA",
 	"Position": "cashier",
 	"Wage": 9,
 	"WorkingHours": 35,
@@ -913,7 +913,7 @@
 },
 {
 	"CityName": "Lee",
-	"StateName": "Massachusetts",
+	"StateName": "MA",
 	"Position": "Cashier",
 	"Wage": 10,
 	"WorkingHours": 40,
@@ -924,7 +924,7 @@
 },
 {
 	"CityName": "Harwich",
-	"StateName": "Massachusetts",
+	"StateName": "MA",
 	"Position": "kitchen helper",
 	"Wage": 10,
 	"WorkingHours": 37,
@@ -935,7 +935,7 @@
 },
 {
 	"CityName": "South Wellfleet",
-	"StateName": "Massachusetts",
+	"StateName": "MA",
 	"Position": "bakery counter",
 	"Wage": 9,
 	"WorkingHours": 40,
@@ -946,7 +946,7 @@
 },
 {
 	"CityName": "Eastham",
-	"StateName": "Massachusetts",
+	"StateName": "MA",
 	"Position": "housekeeper",
 	"Wage": 10,
 	"WorkingHours": 37,
@@ -957,7 +957,7 @@
 },
 {
 	"CityName": "Dennis Port",
-	"StateName": "Massachusetts",
+	"StateName": "MA",
 	"Position": "sales person",
 	"Wage": 9,
 	"WorkingHours": 35,
@@ -968,7 +968,7 @@
 },
 {
 	"CityName": "Dennis Port",
-	"StateName": "Massachusetts",
+	"StateName": "MA",
 	"Position": "housekeeper",
 	"Wage": 11,
 	"WorkingHours": 37,
@@ -979,7 +979,7 @@
 },
 {
 	"CityName": "North Dartmonth",
-	"StateName": "Massachusetts",
+	"StateName": "MA",
 	"Position": "housekeeping",
 	"Wage": 10,
 	"WorkingHours": 42,
@@ -990,7 +990,7 @@
 },
 {
 	"CityName": "Orleans",
-	"StateName": "Massachusetts",
+	"StateName": "MA",
 	"Position": "housekeeper",
 	"Wage": 10,
 	"WorkingHours": 31,
@@ -1001,7 +1001,7 @@
 },
 {
 	"CityName": "Cambridge",
-	"StateName": "Maryland",
+	"StateName": "MD",
 	"Position": "servers",
 	"Wage": 3,
 	"WorkingHours": 42,
@@ -1012,7 +1012,7 @@
 },
 {
 	"CityName": "Lubec",
-	"StateName": "Maine",
+	"StateName": "ME",
 	"Position": "waitresses",
 	"Wage": 3,
 	"WorkingHours": 40,
@@ -1023,7 +1023,7 @@
 },
 {
 	"CityName": "South Portland",
-	"StateName": "Maine",
+	"StateName": "ME",
 	"Position": "Housekeepers",
 	"Wage": 8,
 	"WorkingHours": 40,
@@ -1034,7 +1034,7 @@
 },
 {
 	"CityName": "Lincolnville",
-	"StateName": "Maine",
+	"StateName": "ME",
 	"Position": "maintenance",
 	"Wage": 8,
 	"WorkingHours": 40,
@@ -1045,7 +1045,7 @@
 },
 {
 	"CityName": "Pensacola",
-	"StateName": "Florida",
+	"StateName": "FL",
 	"Position": "Housekeeping",
 	"Wage": 8,
 	"WorkingHours": 36,
@@ -1056,7 +1056,7 @@
 },
 {
 	"CityName": "Clearwater",
-	"StateName": "Florida",
+	"StateName": "FL",
 	"Position": "sales person",
 	"Wage": 8,
 	"WorkingHours": 36,
@@ -1067,7 +1067,7 @@
 },
 {
 	"CityName": "Gulf Shores",
-	"StateName": "Alabama",
+	"StateName": "AL",
 	"Position": "housekeeping",
 	"Wage": 8,
 	"WorkingHours": 35,
@@ -1177,7 +1177,7 @@
 },
 {
 	"CityName": "Rehoboth Beach",
-	"StateName": "Delaware",
+	"StateName": "DE",
 	"Position": "Ice cream seller",
 	"Wage": 11,
 	"WorkingHours": 40,
@@ -1188,7 +1188,7 @@
 },
 {
 	"CityName": "Hoffman Estates",
-	"StateName": "Illinois",
+	"StateName": "IL",
 	"Position": "servers",
 	"Wage": 8,
 	"WorkingHours": 40,
@@ -1199,7 +1199,7 @@
 },
 {
 	"CityName": "Boothbay Harbor",
-	"StateName": "Maine",
+	"StateName": "ME",
 	"Position": "housekeepers",
 	"Wage": 9,
 	"WorkingHours": 38,
@@ -1210,7 +1210,7 @@
 },
 {
 	"CityName": "Provincetown",
-	"StateName": "Massachusetts",
+	"StateName": "MA",
 	"Position": "cashier",
 	"Wage": 10,
 	"WorkingHours": 40,
@@ -1221,7 +1221,7 @@
 },
 {
 	"CityName": "Billings",
-	"StateName": "Montana",
+	"StateName": "MT",
 	"Position": "housekeepers",
 	"Wage": 8,
 	"WorkingHours": 36,
@@ -1232,7 +1232,7 @@
 },
 {
 	"CityName": "Wildwood",
-	"StateName": "New Jersey",
+	"StateName": "NJ",
 	"Position": "housekeeper",
 	"Wage": 8,
 	"WorkingHours": 31,
@@ -1243,7 +1243,7 @@
 },
 {
 	"CityName": "Cape May",
-	"StateName": "New Jersey",
+	"StateName": "NJ",
 	"Position": "sales person",
 	"Wage": 9,
 	"WorkingHours": 40,
@@ -1254,7 +1254,7 @@
 },
 {
 	"CityName": "Woodbine",
-	"StateName": "New Jersey",
+	"StateName": "NJ",
 	"Position": "front counter server",
 	"Wage": 8,
 	"WorkingHours": 35,
@@ -1265,7 +1265,7 @@
 },
 {
 	"CityName": "Inlet",
-	"StateName": "New York",
+	"StateName": "NY",
 	"Position": "housekeeping",
 	"Wage": 9,
 	"WorkingHours": 36,
@@ -1276,7 +1276,7 @@
 },
 {
 	"CityName": "Monroeville",
-	"StateName": "Pennsylvania",
+	"StateName": "PA",
 	"Position": "housekeeping",
 	"Wage": 8,
 	"WorkingHours": 36,
@@ -1287,7 +1287,7 @@
 },
 {
 	"CityName": "Bentleyville",
-	"StateName": "Pennsylvania",
+	"StateName": "PA",
 	"Position": "housekeeper",
 	"Wage": 8,
 	"WorkingHours": 36,
@@ -1298,7 +1298,7 @@
 },
 {
 	"CityName": "Pittsburgh",
-	"StateName": "Pennsylvania",
+	"StateName": "PA",
 	"Position": "sandwich maker",
 	"Wage": 7,
 	"WorkingHours": 40,
@@ -1309,7 +1309,7 @@
 },
 {
 	"CityName": "Hummelstown",
-	"StateName": "Pennsylvania",
+	"StateName": "PA",
 	"Position": "cook",
 	"Wage": 9,
 	"WorkingHours": 38,
@@ -1320,7 +1320,7 @@
 },
 {
 	"CityName": "Mickees Rocks",
-	"StateName": "Pennsylvania",
+	"StateName": "PA",
 	"Position": "sandwich artist",
 	"Wage": 7,
 	"WorkingHours": 36,
@@ -1331,7 +1331,7 @@
 },
 {
 	"CityName": "Custer",
-	"StateName": "South Dakota",
+	"StateName": "SD",
 	"Position": "server",
 	"Wage": 4,
 	"WorkingHours": 37,
@@ -1342,7 +1342,7 @@
 },
 {
 	"CityName": "Sevierville",
-	"StateName": "Tennessee",
+	"StateName": "TN",
 	"Position": "cashier",
 	"Wage": 7,
 	"WorkingHours": 32,
@@ -1353,7 +1353,7 @@
 },
 {
 	"CityName": "Pigeon forge",
-	"StateName": "Tennessee",
+	"StateName": "TN",
 	"Position": "cashier/kitchen helper",
 	"Wage": 8,
 	"WorkingHours": 35,
@@ -1364,7 +1364,7 @@
 },
 {
 	"CityName": "Corpus Christi",
-	"StateName": "Texas",
+	"StateName": "TX",
 	"Position": "sale merchants",
 	"Wage": 7,
 	"WorkingHours": 36,
@@ -1375,7 +1375,7 @@
 },
 {
 	"CityName": "Alpine",
-	"StateName": "Texas",
+	"StateName": "TX",
 	"Position": "order takers/cashier",
 	"Wage": 8,
 	"WorkingHours": 40,
@@ -1386,7 +1386,7 @@
 },
 {
 	"CityName": "Park City",
-	"StateName": "Utah",
+	"StateName": "UT",
 	"Position": "cashier/kitchen helpers",
 	"Wage": 8,
 	"WorkingHours": 32,
@@ -1397,7 +1397,7 @@
 },
 {
 	"CityName": "Virginia Beach",
-	"StateName": "Virginia",
+	"StateName": "VA",
 	"Position": "housekeeper",
 	"Wage": 7,
 	"WorkingHours": 36,
@@ -1408,7 +1408,7 @@
 },
 {
 	"CityName": "Virginia Beach",
-	"StateName": "Virginia",
+	"StateName": "VA",
 	"Position": "housekeeper",
 	"Wage": 8,
 	"WorkingHours": 36,
@@ -1419,7 +1419,7 @@
 },
 {
 	"CityName": "Virginia Beach",
-	"StateName": "Virginia",
+	"StateName": "VA",
 	"Position": "cashier",
 	"Wage": 8,
 	"WorkingHours": 37,
@@ -1430,7 +1430,7 @@
 },
 {
 	"CityName": "Virginia Beach",
-	"StateName": "Virginia",
+	"StateName": "VA",
 	"Position": "cashier",
 	"Wage": 8,
 	"WorkingHours": 36,
@@ -1441,7 +1441,7 @@
 },
 {
 	"CityName": "Virginia Beach",
-	"StateName": "Virginia",
+	"StateName": "VA",
 	"Position": "busser",
 	"Wage": 8,
 	"WorkingHours": 40,
@@ -1452,7 +1452,7 @@
 },
 {
 	"CityName": "Virginia Beach",
-	"StateName": "Virginia",
+	"StateName": "VA",
 	"Position": "dishwasher",
 	"Wage": 8,
 	"WorkingHours": 30,
@@ -1463,7 +1463,7 @@
 },
 {
 	"CityName": "Niagara Falls",
-	"StateName": "New York",
+	"StateName": "NY",
 	"Position": "Food service worker",
 	"Wage": 9,
 	"WorkingHours": 36,
@@ -1474,7 +1474,7 @@
 },
 {
 	"CityName": "Manhattan",
-	"StateName": "New York",
+	"StateName": "NY",
 	"Position": "ride operator",
 	"Wage": 8,
 	"WorkingHours": 40,
@@ -1485,7 +1485,7 @@
 },
 {
 	"CityName": "Flushing",
-	"StateName": "New York",
+	"StateName": "NY",
 	"Position": "cashier",
 	"Wage": 11,
 	"WorkingHours": 30,
@@ -1496,7 +1496,7 @@
 },
 {
 	"CityName": "Brooklyn",
-	"StateName": "New York",
+	"StateName": "NY",
 	"Position": "cashier",
 	"Wage": 9,
 	"WorkingHours": 30,
@@ -1507,7 +1507,7 @@
 },
 {
 	"CityName": "Trukee",
-	"StateName": "California",
+	"StateName": "CA",
 	"Position": "grocery clerks",
 	"Wage": 10,
 	"WorkingHours": 40,
@@ -1518,7 +1518,7 @@
 },
 {
 	"CityName": "Wawona",
-	"StateName": "California",
+	"StateName": "CA",
 	"Position": "housekeeper",
 	"Wage": 10,
 	"WorkingHours": 40,
@@ -1529,7 +1529,7 @@
 },
 {
 	"CityName": "South Phily",
-	"StateName": "Pennsylvania",
+	"StateName": "PA",
 	"Position": "food runner",
 	"Wage": 2,
 	"WorkingHours": 36,
@@ -1540,7 +1540,7 @@
 },
 {
 	"CityName": "Williamsburg",
-	"StateName": "Virginia",
+	"StateName": "VA",
 	"Position": "Restaurant worker",
 	"Wage": 7,
 	"WorkingHours": 32,
@@ -1551,7 +1551,7 @@
 },
 {
 	"CityName": "Myrtle Beach",
-	"StateName": "South Carolina",
+	"StateName": "SC",
 	"Position": "Restaurant worker",
 	"Wage": 2,
 	"WorkingHours": 40,
@@ -1562,7 +1562,7 @@
 },
 {
 	"CityName": "Myrtle Beach",
-	"StateName": "South Carolina",
+	"StateName": "SC",
 	"Position": "restaurant worker",
 	"Wage": 8,
 	"WorkingHours": 40,
@@ -1573,7 +1573,7 @@
 },
 {
 	"CityName": "Fawnskin",
-	"StateName": "California",
+	"StateName": "CA",
 	"Position": "camp worker",
 	"Wage": 51,
 	"WorkingHours": 40,
@@ -1595,7 +1595,7 @@
 },
 {
 	"CityName": "Destin",
-	"StateName": "Florida",
+	"StateName": "FL",
 	"Position": "barista",
 	"Wage": 8,
 	"WorkingHours": 36,
@@ -1606,7 +1606,7 @@
 },
 {
 	"CityName": "Okoboji",
-	"StateName": "Iowa",
+	"StateName": "IA",
 	"Position": "cooking",
 	"Wage": 9,
 	"WorkingHours": 40,
@@ -1617,7 +1617,7 @@
 },
 {
 	"CityName": "Hyattsville",
-	"StateName": "Maryland",
+	"StateName": "MD",
 	"Position": "crew member",
 	"Wage": 8,
 	"WorkingHours": 36,
@@ -1628,7 +1628,7 @@
 },
 {
 	"CityName": "Lovell",
-	"StateName": "Maine",
+	"StateName": "ME",
 	"Position": "hostess",
 	"Wage": 7,
 	"WorkingHours": 41,
@@ -1639,7 +1639,7 @@
 },
 {
 	"CityName": "Beaver Island",
-	"StateName": "Michigan",
+	"StateName": "MI",
 	"Position": "dishwasher",
 	"Wage": 8,
 	"WorkingHours": 37,
@@ -1650,7 +1650,7 @@
 },
 {
 	"CityName": "Great Falls",
-	"StateName": "Montana",
+	"StateName": "MT",
 	"Position": "housekeeper",
 	"Wage": 8,
 	"WorkingHours": 32,
@@ -1661,7 +1661,7 @@
 },
 {
 	"CityName": "Kearney",
-	"StateName": "Nebraska",
+	"StateName": "NE",
 	"Position": "housekeeper",
 	"Wage": 8,
 	"WorkingHours": 36,
@@ -1672,7 +1672,7 @@
 },
 {
 	"CityName": "Hampton Beach",
-	"StateName": "New Hampshire",
+	"StateName": "NH",
 	"Position": "sales associate",
 	"Wage": 8,
 	"WorkingHours": 32,
@@ -1683,7 +1683,7 @@
 },
 {
 	"CityName": "Lake George",
-	"StateName": "New York",
+	"StateName": "NY",
 	"Position": "resort worker",
 	"Wage": 8,
 	"WorkingHours": 40,
@@ -1694,7 +1694,7 @@
 },
 {
 	"CityName": "Lakeside Marblehead",
-	"StateName": "Ohio",
+	"StateName": "OH",
 	"Position": "bartender",
 	"Wage": 6,
 	"WorkingHours": 36,
@@ -1705,7 +1705,7 @@
 },
 {
 	"CityName": "Put-in-Bay",
-	"StateName": "Ohio",
+	"StateName": "OH",
 	"Position": "housekeeper",
 	"Wage": 7,
 	"WorkingHours": 40,
@@ -1716,7 +1716,7 @@
 },
 {
 	"CityName": "Shawnee",
-	"StateName": "Oklahoma",
+	"StateName": "OK",
 	"Position": "housekeeper",
 	"Wage": 7,
 	"WorkingHours": 37,
@@ -1727,7 +1727,7 @@
 },
 {
 	"CityName": "Allentown",
-	"StateName": "Pennsylvania",
+	"StateName": "PA",
 	"Position": "crew member",
 	"Wage": 8,
 	"WorkingHours": 37,
@@ -1738,7 +1738,7 @@
 },
 {
 	"CityName": "Hilton Head Island",
-	"StateName": "South Carolina",
+	"StateName": "SC",
 	"Position": "busser",
 	"Wage": 5,
 	"WorkingHours": 35,
@@ -1749,7 +1749,7 @@
 },
 {
 	"CityName": "Killington",
-	"StateName": "Vermont",
+	"StateName": "VT",
 	"Position": "housekeeper",
 	"Wage": 10,
 	"WorkingHours": 40,
@@ -1760,7 +1760,7 @@
 },
 {
 	"CityName": "Eagle River",
-	"StateName": "Wisconsin",
+	"StateName": "WI",
 	"Position": "sales assistant",
 	"Wage": 8,
 	"WorkingHours": 33,
@@ -1771,7 +1771,7 @@
 },
 {
 	"CityName": "Wisconsin Dells",
-	"StateName": "Wisconsin",
+	"StateName": "WI",
 	"Position": "crew member",
 	"Wage": 8,
 	"WorkingHours": 40,
@@ -1782,7 +1782,7 @@
 },
 {
 	"CityName": "Gillette",
-	"StateName": "Wyoming",
+	"StateName": "WY",
 	"Position": "housekeeper",
 	"Wage": 8,
 	"WorkingHours": 36,
@@ -1793,7 +1793,7 @@
 },
 {
 	"CityName": "Washington",
-	"StateName": "District of Columbia",
+	"StateName": "DC",
 	"Position": "cashier",
 	"Wage": 10,
 	"WorkingHours": 40,
@@ -1804,7 +1804,7 @@
 },
 {
 	"CityName": "Washington DC",
-	"StateName": "District of Columbia",
+	"StateName": "DC",
 	"Position": "cook",
 	"Wage": 9,
 	"WorkingHours": 40,
@@ -1837,7 +1837,7 @@
 },
 {
 	"CityName": "Arkdale",
-	"StateName": "Wisconsin",
+	"StateName": "WI",
 	"Position": "store clerk",
 	"Wage": 7,
 	"WorkingHours": 35,
@@ -1848,7 +1848,7 @@
 },
 {
 	"CityName": "Ocean city",
-	"StateName": "New Jersey",
+	"StateName": "NJ",
 	"Position": "housekeeper",
 	"Wage": 8,
 	"WorkingHours": 30,
@@ -1859,7 +1859,7 @@
 },
 {
 	"CityName": "Atlantic city",
-	"StateName": "New Jersey",
+	"StateName": "NJ",
 	"Position": "cashier",
 	"Wage": 8,
 	"WorkingHours": 36,
@@ -1870,7 +1870,7 @@
 },
 {
 	"CityName": "Houston",
-	"StateName": "Texas",
+	"StateName": "TX",
 	"Position": "busser",
 	"Wage": 8,
 	"WorkingHours": 40,
@@ -1881,7 +1881,7 @@
 },
 {
 	"CityName": "Jackson",
-	"StateName": "Wyoming",
+	"StateName": "WY",
 	"Position": "suite attendants",
 	"Wage": 10,
 	"WorkingHours": 32,
@@ -1892,7 +1892,7 @@
 },
 {
 	"CityName": "Boston",
-	"StateName": "Massachusetts",
+	"StateName": "MA",
 	"Position": "housekeeper",
 	"Wage": 9,
 	"WorkingHours": 33,
@@ -1903,7 +1903,7 @@
 },
 {
 	"CityName": "Cambridge",
-	"StateName": "Massachusetts",
+	"StateName": "MA",
 	"Position": "housekeeper",
 	"Wage": 9,
 	"WorkingHours": 33,
@@ -1914,7 +1914,7 @@
 },
 {
 	"CityName": "Murdo",
-	"StateName": "South Dakota",
+	"StateName": "SD",
 	"Position": "cook",
 	"Wage": 7,
 	"WorkingHours": 40,
@@ -1925,7 +1925,7 @@
 },
 {
 	"CityName": "Hermont",
-	"StateName": "Maine",
+	"StateName": "ME",
 	"Position": "cook",
 	"Wage": 7,
 	"WorkingHours": 37,
@@ -1936,7 +1936,7 @@
 },
 {
 	"CityName": "Lodi",
-	"StateName": "Ohio",
+	"StateName": "OH",
 	"Position": "server",
 	"Wage": 8,
 	"WorkingHours": 37,
@@ -1947,7 +1947,7 @@
 },
 {
 	"CityName": "Grants",
-	"StateName": "New Mexico",
+	"StateName": "NM",
 	"Position": "server",
 	"Wage": 2,
 	"WorkingHours": 40,
@@ -1958,7 +1958,7 @@
 },
 {
 	"CityName": "Concord",
-	"StateName": "New Hampshire",
+	"StateName": "NH",
 	"Position": "special event worker",
 	"Wage": 9,
 	"WorkingHours": 50,
@@ -1969,7 +1969,7 @@
 },
 {
 	"CityName": "Santa Fe Springs",
-	"StateName": "California",
+	"StateName": "CA",
 	"Position": "recepcionist",
 	"Wage": 10,
 	"WorkingHours": 36,
@@ -1980,7 +1980,7 @@
 },
 {
 	"CityName": "Big Bear city",
-	"StateName": "California",
+	"StateName": "CA",
 	"Position": "kitchen staff",
 	"Wage": 10,
 	"WorkingHours": 37,
@@ -1991,7 +1991,7 @@
 },
 {
 	"CityName": "Big Bear City",
-	"StateName": "California",
+	"StateName": "CA",
 	"Position": "program staff",
 	"Wage": 8,
 	"WorkingHours": 40,
@@ -2002,7 +2002,7 @@
 },
 {
 	"CityName": "Davenport",
-	"StateName": "Florida",
+	"StateName": "FL",
 	"Position": "housekeeper",
 	"Wage": 8,
 	"WorkingHours": 36,
@@ -2013,7 +2013,7 @@
 },
 {
 	"CityName": "Atlanta Area",
-	"StateName": "Georgia",
+	"StateName": "GA",
 	"Position": "selling food and bevarages",
 	"Wage": 7,
 	"WorkingHours": 36,
@@ -2024,7 +2024,7 @@
 },
 {
 	"CityName": "O'Fallon",
-	"StateName": "Missouri",
+	"StateName": "MO",
 	"Position": "cashier",
 	"Wage": 8,
 	"WorkingHours": 35,
@@ -2035,7 +2035,7 @@
 },
 {
 	"CityName": "Linden",
-	"StateName": "New Jersey",
+	"StateName": "NJ",
 	"Position": "cleaner",
 	"Wage": 10,
 	"WorkingHours": 36,
@@ -2046,7 +2046,7 @@
 },
 {
 	"CityName": "Atlantic City",
-	"StateName": "New Jersey",
+	"StateName": "NJ",
 	"Position": "bike rental assistant",
 	"Wage": 8,
 	"WorkingHours": 32,
@@ -2057,7 +2057,7 @@
 },
 {
 	"CityName": "Wildwood",
-	"StateName": "New Jersey",
+	"StateName": "NJ",
 	"Position": "shop assistant",
 	"Wage": 8,
 	"WorkingHours": 40,
@@ -2068,7 +2068,7 @@
 },
 {
 	"CityName": "Kelleys Island",
-	"StateName": "Ohio",
+	"StateName": "OH",
 	"Position": "shop assistant",
 	"Wage": 8,
 	"WorkingHours": 50,
@@ -2079,7 +2079,7 @@
 },
 {
 	"CityName": "Port Clinton",
-	"StateName": "Ohio",
+	"StateName": "OH",
 	"Position": "bartenders",
 	"Wage": 8,
 	"WorkingHours": 40,
@@ -2090,7 +2090,7 @@
 },
 {
 	"CityName": "Ephraim",
-	"StateName": "Wisconsin",
+	"StateName": "WI",
 	"Position": "housekeeper",
 	"Wage": 9,
 	"WorkingHours": 32,
@@ -2167,7 +2167,7 @@
 },
 {
 	"CityName": "Eureka",
-	"StateName": "California",
+	"StateName": "CA",
 	"Position": "housekeeper",
 	"Wage": 9,
 	"WorkingHours": 40,
@@ -2178,7 +2178,7 @@
 },
 {
 	"CityName": "Vacaville",
-	"StateName": "California",
+	"StateName": "CA",
 	"Position": "housekeeping",
 	"Wage": 9,
 	"WorkingHours": 40,
@@ -2200,7 +2200,7 @@
 },
 {
 	"CityName": "Los Angeles",
-	"StateName": "California",
+	"StateName": "CA",
 	"Position": "parking lot attendants",
 	"Wage": 10,
 	"WorkingHours": 32,
@@ -2211,7 +2211,7 @@
 },
 {
 	"CityName": "Clermont",
-	"StateName": "Florida",
+	"StateName": "FL",
 	"Position": "sales help",
 	"Wage": 9,
 	"WorkingHours": 35,
@@ -2222,7 +2222,7 @@
 },
 {
 	"CityName": "Sarasota",
-	"StateName": "Florida",
+	"StateName": "FL",
 	"Position": "maintenance",
 	"Wage": 10,
 	"WorkingHours": 42,
@@ -2233,7 +2233,7 @@
 },
 {
 	"CityName": "Council Bluffs",
-	"StateName": "Iowa",
+	"StateName": "IA",
 	"Position": "housekeeper",
 	"Wage": 7,
 	"WorkingHours": 35,
@@ -2244,7 +2244,7 @@
 },
 {
 	"CityName": "Okoboji",
-	"StateName": "Iowa",
+	"StateName": "IA",
 	"Position": "kitchen help",
 	"Wage": 9,
 	"WorkingHours": 37,
@@ -2255,7 +2255,7 @@
 },
 {
 	"CityName": "Springfield",
-	"StateName": "Illinois",
+	"StateName": "IL",
 	"Position": "housekeeper",
 	"Wage": 8,
 	"WorkingHours": 35,
@@ -2266,7 +2266,7 @@
 },
 {
 	"CityName": "Chicopee",
-	"StateName": "Massachusetts",
+	"StateName": "MA",
 	"Position": "dishwasher",
 	"Wage": 10,
 	"WorkingHours": 35,
@@ -2277,7 +2277,7 @@
 },
 {
 	"CityName": "Lenox",
-	"StateName": "Massachusetts",
+	"StateName": "MA",
 	"Position": "server",
 	"Wage": 3,
 	"WorkingHours": 45,
@@ -2288,7 +2288,7 @@
 },
 {
 	"CityName": "Bethesda",
-	"StateName": "Maryland",
+	"StateName": "MD",
 	"Position": "wait/host staff",
 	"Wage": 7,
 	"WorkingHours": 40,
@@ -2299,7 +2299,7 @@
 },
 {
 	"CityName": "Kennebunk",
-	"StateName": "Maine",
+	"StateName": "ME",
 	"Position": "housekeeping",
 	"Wage": 7,
 	"WorkingHours": 32,
@@ -2310,7 +2310,7 @@
 },
 {
 	"CityName": "Southport",
-	"StateName": "Maine",
+	"StateName": "ME",
 	"Position": "kitchen and restaurant help",
 	"Wage": 10,
 	"WorkingHours": 40,
@@ -2321,7 +2321,7 @@
 },
 {
 	"CityName": "Christmas",
-	"StateName": "Michigan",
+	"StateName": "MI",
 	"Position": "housekeeping",
 	"Wage": 8,
 	"WorkingHours": 36,
@@ -2332,7 +2332,7 @@
 },
 {
 	"CityName": "Mackinaw City",
-	"StateName": "Michigan",
+	"StateName": "MI",
 	"Position": "housekeeping",
 	"Wage": 7,
 	"WorkingHours": 36,
@@ -2343,7 +2343,7 @@
 },
 {
 	"CityName": "Mackinaw City",
-	"StateName": "Michigan",
+	"StateName": "MI",
 	"Position": "housekeeping",
 	"Wage": 8,
 	"WorkingHours": 32,
@@ -2354,7 +2354,7 @@
 },
 {
 	"CityName": "Branson",
-	"StateName": "Missouri",
+	"StateName": "MO",
 	"Position": "housekeeping",
 	"Wage": 9,
 	"WorkingHours": 40,
@@ -2365,7 +2365,7 @@
 },
 {
 	"CityName": "Osage Beach",
-	"StateName": "Missouri",
+	"StateName": "MO",
 	"Position": "housekeeping",
 	"Wage": 7,
 	"WorkingHours": 32,
@@ -2376,7 +2376,7 @@
 },
 {
 	"CityName": "Hardin",
-	"StateName": "Montana",
+	"StateName": "MT",
 	"Position": "housekeeper",
 	"Wage": 9,
 	"WorkingHours": 43,
@@ -2387,7 +2387,7 @@
 },
 {
 	"CityName": "Yellowstone",
-	"StateName": "Montana",
+	"StateName": "MT",
 	"Position": "wait staff",
 	"Wage": 7,
 	"WorkingHours": 42,
@@ -2398,7 +2398,7 @@
 },
 {
 	"CityName": "Burnsville",
-	"StateName": "North Carolina",
+	"StateName": "NC",
 	"Position": "kitchen helper",
 	"Wage": 8,
 	"WorkingHours": 36,
@@ -2409,7 +2409,7 @@
 },
 {
 	"CityName": "Wallace",
-	"StateName": "North Carolina",
+	"StateName": "NC",
 	"Position": "wait staff",
 	"Wage": 7,
 	"WorkingHours": 40,
@@ -2420,7 +2420,7 @@
 },
 {
 	"CityName": "Medora",
-	"StateName": "North Dakota",
+	"StateName": "ND",
 	"Position": "cashier",
 	"Wage": 8,
 	"WorkingHours": 32,
@@ -2431,7 +2431,7 @@
 },
 {
 	"CityName": "Williston",
-	"StateName": "North Dakota",
+	"StateName": "ND",
 	"Position": "housekeeper",
 	"Wage": 9,
 	"WorkingHours": 40,
@@ -2442,7 +2442,7 @@
 },
 {
 	"CityName": "Lexington",
-	"StateName": "Nebraska",
+	"StateName": "NE",
 	"Position": "wait/host staff",
 	"Wage": 3,
 	"WorkingHours": 45,
@@ -2453,7 +2453,7 @@
 },
 {
 	"CityName": "Lincoln",
-	"StateName": "Nebraska",
+	"StateName": "NE",
 	"Position": "cook help",
 	"Wage": 7,
 	"WorkingHours": 40,
@@ -2464,7 +2464,7 @@
 },
 {
 	"CityName": "Albany",
-	"StateName": "New Hampshire",
+	"StateName": "NH",
 	"Position": "housekeeper",
 	"Wage": 8,
 	"WorkingHours": 40,
@@ -2475,7 +2475,7 @@
 },
 {
 	"CityName": "Gilford",
-	"StateName": "New Hampshire",
+	"StateName": "NH",
 	"Position": "retail seller",
 	"Wage": 7,
 	"WorkingHours": 40,
@@ -2486,7 +2486,7 @@
 },
 {
 	"CityName": "Wildwood",
-	"StateName": "New Jersey",
+	"StateName": "NJ",
 	"Position": "housekeeper",
 	"Wage": 9,
 	"WorkingHours": 32,
@@ -2497,7 +2497,7 @@
 },
 {
 	"CityName": "Amagansett",
-	"StateName": "New York",
+	"StateName": "NY",
 	"Position": "sales help",
 	"Wage": 10,
 	"WorkingHours": 35,
@@ -2508,7 +2508,7 @@
 },
 {
 	"CityName": "Inlet",
-	"StateName": "New York",
+	"StateName": "NY",
 	"Position": "housekeeping",
 	"Wage": 8,
 	"WorkingHours": 40,
@@ -2519,7 +2519,7 @@
 },
 {
 	"CityName": "Lake Placid",
-	"StateName": "New York",
+	"StateName": "NY",
 	"Position": "bus person",
 	"Wage": 5,
 	"WorkingHours": 37,
@@ -2530,7 +2530,7 @@
 },
 {
 	"CityName": "Margaretville",
-	"StateName": "New York",
+	"StateName": "NY",
 	"Position": "maintenance",
 	"Wage": 8,
 	"WorkingHours": 35,
@@ -2541,7 +2541,7 @@
 },
 {
 	"CityName": "Niagara Falls",
-	"StateName": "New York",
+	"StateName": "NY",
 	"Position": "front desk",
 	"Wage": 8,
 	"WorkingHours": 40,
@@ -2552,7 +2552,7 @@
 },
 {
 	"CityName": "Shelter Island",
-	"StateName": "New York",
+	"StateName": "NY",
 	"Position": "sales help",
 	"Wage": 8,
 	"WorkingHours": 40,
@@ -2563,7 +2563,7 @@
 },
 {
 	"CityName": "Yorktown Heights",
-	"StateName": "New York",
+	"StateName": "NY",
 	"Position": "sales help",
 	"Wage": 9,
 	"WorkingHours": 40,
@@ -2574,7 +2574,7 @@
 },
 {
 	"CityName": "Clyde",
-	"StateName": "Ohio",
+	"StateName": "OH",
 	"Position": "bartender",
 	"Wage": 7,
 	"WorkingHours": 36,
@@ -2585,7 +2585,7 @@
 },
 {
 	"CityName": "Put in Bay",
-	"StateName": "Ohio",
+	"StateName": "OH",
 	"Position": "housekeeping",
 	"Wage": 7,
 	"WorkingHours": 48,
@@ -2596,7 +2596,7 @@
 },
 {
 	"CityName": "Hollidaysburg",
-	"StateName": "Pennsylvania",
+	"StateName": "PA",
 	"Position": "server",
 	"Wage": 9,
 	"WorkingHours": 35,
@@ -2607,7 +2607,7 @@
 },
 {
 	"CityName": "Laucaster",
-	"StateName": "Pennsylvania",
+	"StateName": "PA",
 	"Position": "housekeeping",
 	"Wage": 7,
 	"WorkingHours": 36,
@@ -2618,7 +2618,7 @@
 },
 {
 	"CityName": "Myrtle Beach",
-	"StateName": "South Carolina",
+	"StateName": "SC",
 	"Position": "ocean lifeguard",
 	"Wage": 8,
 	"WorkingHours": 40,
@@ -2629,7 +2629,7 @@
 },
 {
 	"CityName": "Carthage",
-	"StateName": "Texas",
+	"StateName": "TX",
 	"Position": "front desk help",
 	"Wage": 7,
 	"WorkingHours": 40,
@@ -2640,7 +2640,7 @@
 },
 {
 	"CityName": "Houston",
-	"StateName": "Texas",
+	"StateName": "TX",
 	"Position": "kitchen help",
 	"Wage": 10,
 	"WorkingHours": 30,
@@ -2651,7 +2651,7 @@
 },
 {
 	"CityName": "Texarkana",
-	"StateName": "Texas",
+	"StateName": "TX",
 	"Position": "housekeeping",
 	"Wage": 7,
 	"WorkingHours": 30,
@@ -2662,7 +2662,7 @@
 },
 {
 	"CityName": "Escalante",
-	"StateName": "Utah",
+	"StateName": "UT",
 	"Position": "Housekeeping",
 	"Wage": 7,
 	"WorkingHours": 40,
@@ -2673,7 +2673,7 @@
 },
 {
 	"CityName": "Veyo",
-	"StateName": "Utah",
+	"StateName": "UT",
 	"Position": "cashier",
 	"Wage": 7,
 	"WorkingHours": 40,
@@ -2684,7 +2684,7 @@
 },
 {
 	"CityName": "Virginia Beach",
-	"StateName": "Virginia",
+	"StateName": "VA",
 	"Position": "kitchen helper",
 	"Wage": 8,
 	"WorkingHours": 40,
@@ -2695,7 +2695,7 @@
 },
 {
 	"CityName": "Burlington",
-	"StateName": "Vermont",
+	"StateName": "VT",
 	"Position": "housekeeper",
 	"Wage": 9,
 	"WorkingHours": 40,
@@ -2706,7 +2706,7 @@
 },
 {
 	"CityName": "Burlington",
-	"StateName": "Vermont",
+	"StateName": "VT",
 	"Position": "ticket sales",
 	"Wage": 8,
 	"WorkingHours": 36,
@@ -2717,7 +2717,7 @@
 },
 {
 	"CityName": "Rockport",
-	"StateName": "Wasshington",
+	"StateName": "WA",
 	"Position": "wait staff",
 	"Wage": 9,
 	"WorkingHours": 36,
@@ -2728,7 +2728,7 @@
 },
 {
 	"CityName": "Washington Island",
-	"StateName": "Wisconsin",
+	"StateName": "WI",
 	"Position": "dishwasher",
 	"Wage": 7,
 	"WorkingHours": 36,
@@ -2739,7 +2739,7 @@
 },
 {
 	"CityName": "Wisconsin dells",
-	"StateName": "Wisconsin",
+	"StateName": "WI",
 	"Position": "sales help",
 	"Wage": 7,
 	"WorkingHours": 36,
@@ -2750,7 +2750,7 @@
 },
 {
 	"CityName": "Buffalo",
-	"StateName": "Wyoming",
+	"StateName": "WY",
 	"Position": "housekeeping",
 	"Wage": 8,
 	"WorkingHours": 32,
@@ -2761,7 +2761,7 @@
 },
 {
 	"CityName": "Buffalo",
-	"StateName": "Wyoming",
+	"StateName": "WY",
 	"Position": "kitchen help",
 	"Wage": 8,
 	"WorkingHours": 50,
@@ -2772,7 +2772,7 @@
 },
 {
 	"CityName": "Gillette",
-	"StateName": "Wyoming",
+	"StateName": "WY",
 	"Position": "housekeeper",
 	"Wage": 8,
 	"WorkingHours": 25,
@@ -2783,7 +2783,7 @@
 },
 {
 	"CityName": "Sheridan",
-	"StateName": "Wyoming",
+	"StateName": "WY",
 	"Position": "housekeeping",
 	"Wage": 8,
 	"WorkingHours": 36,
@@ -2794,7 +2794,7 @@
 },
 {
 	"CityName": "Southport",
-	"StateName": "Maine",
+	"StateName": "ME",
 	"Position": "wait/host staff",
 	"Wage": 8,
 	"WorkingHours": 40,
@@ -2805,7 +2805,7 @@
 },
 {
 	"CityName": "Ocean city",
-	"StateName": "New Jersey",
+	"StateName": "NJ",
 	"Position": "cashier",
 	"Wage": 8,
 	"WorkingHours": 40,
@@ -2827,7 +2827,7 @@
 },
 {
 	"CityName": "Orlando",
-	"StateName": "Florida",
+	"StateName": "FL",
 	"Position": "counter sales",
 	"Wage": 10,
 	"WorkingHours": 40,
@@ -2838,7 +2838,7 @@
 },
 {
 	"CityName": "Springfield",
-	"StateName": "Illinois",
+	"StateName": "IL",
 	"Position": "wait staff",
 	"Wage": 8,
 	"WorkingHours": 32,
@@ -2849,7 +2849,7 @@
 },
 {
 	"CityName": "South Yarmouth",
-	"StateName": "Massachusetts",
+	"StateName": "MA",
 	"Position": "housekeeping",
 	"Wage": 8,
 	"WorkingHours": 32,
@@ -2860,7 +2860,7 @@
 },
 {
 	"CityName": "Hyannis",
-	"StateName": "Massachusetts",
+	"StateName": "MA",
 	"Position": "housekeeping",
 	"Wage": 10,
 	"WorkingHours": 32,
@@ -2871,7 +2871,7 @@
 },
 {
 	"CityName": "Fort Peck",
-	"StateName": "Montana",
+	"StateName": "MT",
 	"Position": "Hotel staff",
 	"Wage": 8,
 	"WorkingHours": 37,
@@ -2882,7 +2882,7 @@
 },
 {
 	"CityName": "Virginia Beach",
-	"StateName": "Virginia",
+	"StateName": "VA",
 	"Position": "waitresses",
 	"Wage": 2,
 	"WorkingHours": 36,
@@ -2893,7 +2893,7 @@
 },
 {
 	"CityName": "Madison",
-	"StateName": "Wisconsin",
+	"StateName": "WI",
 	"Position": "waitress",
 	"Wage": 7,
 	"WorkingHours": 32,
@@ -2926,7 +2926,7 @@
 },
 {
 	"CityName": "Bretton Woods",
-	"StateName": "New Hampshire",
+	"StateName": "NH",
 	"Position": "dining server",
 	"Wage": 8,
 	"WorkingHours": 40,
@@ -2937,7 +2937,7 @@
 },
 {
 	"CityName": "Kings Beach",
-	"StateName": "California",
+	"StateName": "CA",
 	"Position": "sandwich artists",
 	"Wage": 10,
 	"WorkingHours": 36,
@@ -2948,7 +2948,7 @@
 },
 {
 	"CityName": "Block Island",
-	"StateName": "Rhode Island",
+	"StateName": "RI",
 	"Position": "dishwasher",
 	"Wage": 9,
 	"WorkingHours": 40,
@@ -2959,7 +2959,7 @@
 },
 {
 	"CityName": "Block Island",
-	"StateName": "Rhode Island",
+	"StateName": "RI",
 	"Position": "server",
 	"Wage": 9,
 	"WorkingHours": 40,
@@ -2981,7 +2981,7 @@
 },
 {
 	"CityName": "Old Orchard Beach",
-	"StateName": "Maine",
+	"StateName": "ME",
 	"Position": "salesman",
 	"Wage": 9,
 	"WorkingHours": 35,
@@ -2992,7 +2992,7 @@
 },
 {
 	"CityName": "Orlens",
-	"StateName": "Massachusetts",
+	"StateName": "MA",
 	"Position": "hostesses",
 	"Wage": 8,
 	"WorkingHours": 40,
@@ -3003,7 +3003,7 @@
 },
 {
 	"CityName": "Martha's Vineyard",
-	"StateName": "Massachusetts",
+	"StateName": "MA",
 	"Position": "pastry helper",
 	"Wage": 10,
 	"WorkingHours": 36,
@@ -3014,7 +3014,7 @@
 },
 {
 	"CityName": "North Dartmouth",
-	"StateName": "Massachusetts",
+	"StateName": "MA",
 	"Position": "housekeeper",
 	"Wage": 10,
 	"WorkingHours": 42,
@@ -3025,7 +3025,7 @@
 },
 {
 	"CityName": "Hyannis",
-	"StateName": "Massachusetts",
+	"StateName": "MA",
 	"Position": "laundry",
 	"Wage": 10,
 	"WorkingHours": 40,
@@ -3036,7 +3036,7 @@
 },
 {
 	"CityName": "Brewster",
-	"StateName": "Massachusetts",
+	"StateName": "MA",
 	"Position": "server",
 	"Wage": 2,
 	"WorkingHours": 35,
@@ -3047,7 +3047,7 @@
 },
 {
 	"CityName": "Provincetown",
-	"StateName": "Massachusetts",
+	"StateName": "MA",
 	"Position": "sales clerk",
 	"Wage": 11,
 	"WorkingHours": 36,
@@ -3057,8 +3057,8 @@
 	"Link": "http://watabroad.com/job-offers-USA?product_id=359",
 },
 {
-	"CityName": "Virginia",
-	"StateName": "Northern Virginia",
+	"CityName": "VA",
+	"StateName": "NV",
 	"Position": "lifeguard",
 	"Wage": 8,
 	"WorkingHours": 40,
@@ -3069,7 +3069,7 @@
 },
 {
 	"CityName": "Block Island",
-	"StateName": "Rhode Island",
+	"StateName": "RI",
 	"Position": "front desk",
 	"Wage": 9,
 	"WorkingHours": 40,
@@ -3080,7 +3080,7 @@
 },
 {
 	"CityName": "Block Island",
-	"StateName": "Rhode Island",
+	"StateName": "RI",
 	"Position": "server",
 	"Wage": 9,
 	"WorkingHours": 40,
@@ -3091,7 +3091,7 @@
 },
 {
 	"CityName": "Block Island",
-	"StateName": "Rhode Island",
+	"StateName": "RI",
 	"Position": "general counter help",
 	"Wage": 9,
 	"WorkingHours": 36,
@@ -3102,7 +3102,7 @@
 },
 {
 	"CityName": "Block Island",
-	"StateName": "Rhode Island",
+	"StateName": "RI",
 	"Position": "retail/inventory",
 	"Wage": 9,
 	"WorkingHours": 40,
@@ -3113,7 +3113,7 @@
 },
 {
 	"CityName": "Block Island",
-	"StateName": "Rhode Island",
+	"StateName": "RI",
 	"Position": "front desk",
 	"Wage": 9,
 	"WorkingHours": 35,
@@ -3124,7 +3124,7 @@
 },
 {
 	"CityName": "Block Island",
-	"StateName": "Rhode Island",
+	"StateName": "RI",
 	"Position": "breakfast",
 	"Wage": 7,
 	"WorkingHours": 40,
@@ -3135,7 +3135,7 @@
 },
 {
 	"CityName": "Block Island",
-	"StateName": "Rhode Island",
+	"StateName": "RI",
 	"Position": "maintenance",
 	"Wage": 9,
 	"WorkingHours": 37,
@@ -3146,7 +3146,7 @@
 },
 {
 	"CityName": "Block Island",
-	"StateName": "Rhode Island",
+	"StateName": "RI",
 	"Position": "line cook",
 	"Wage": 12,
 	"WorkingHours": 40,
@@ -3157,7 +3157,7 @@
 },
 {
 	"CityName": "Block Island",
-	"StateName": "Rhode Island",
+	"StateName": "RI",
 	"Position": "housekeeper",
 	"Wage": 9,
 	"WorkingHours": 35,
@@ -3168,7 +3168,7 @@
 },
 {
 	"CityName": "Block Island",
-	"StateName": "Rhode Island",
+	"StateName": "RI",
 	"Position": "cook",
 	"Wage": 9,
 	"WorkingHours": 35,
@@ -3179,7 +3179,7 @@
 },
 {
 	"CityName": "Block Island",
-	"StateName": "Rhode Island",
+	"StateName": "RI",
 	"Position": "housekeeper",
 	"Wage": 9,
 	"WorkingHours": 40,
@@ -3190,7 +3190,7 @@
 },
 {
 	"CityName": "Block Island",
-	"StateName": "Rhode Island",
+	"StateName": "RI",
 	"Position": "retail/inventory",
 	"Wage": 9,
 	"WorkingHours": 40,
@@ -3201,7 +3201,7 @@
 },
 {
 	"CityName": "Block Island",
-	"StateName": "Rhode Island",
+	"StateName": "RI",
 	"Position": "grocery clerk",
 	"Wage": 9,
 	"WorkingHours": 40,
@@ -3212,7 +3212,7 @@
 },
 {
 	"CityName": "Block Island",
-	"StateName": "Rhode island",
+	"StateName": "RI",
 	"Position": "retail clerk",
 	"Wage": 9,
 	"WorkingHours": 38,
@@ -3223,7 +3223,7 @@
 },
 {
 	"CityName": "Block Island",
-	"StateName": "Rhode Island",
+	"StateName": "RI",
 	"Position": "desk agent",
 	"Wage": 9,
 	"WorkingHours": 40,
@@ -3234,7 +3234,7 @@
 },
 {
 	"CityName": "Block Island",
-	"StateName": "Rhode Island",
+	"StateName": "RI",
 	"Position": "housekeeper",
 	"Wage": 9,
 	"WorkingHours": 40,
@@ -3245,7 +3245,7 @@
 },
 {
 	"CityName": "Block Island",
-	"StateName": "Rhode Island",
+	"StateName": "RI",
 	"Position": "fry cook",
 	"Wage": 9,
 	"WorkingHours": 40,
@@ -3256,7 +3256,7 @@
 },
 {
 	"CityName": "Block Island",
-	"StateName": "Rhode Island",
+	"StateName": "RI",
 	"Position": "housekeeper",
 	"Wage": 9,
 	"WorkingHours": 37,
@@ -3267,7 +3267,7 @@
 },
 {
 	"CityName": "Block Island",
-	"StateName": "Rhode Island",
+	"StateName": "RI",
 	"Position": "dishwasher",
 	"Wage": 7,
 	"WorkingHours": 40,
@@ -3278,7 +3278,7 @@
 },
 {
 	"CityName": "Block Island",
-	"StateName": "Rhode Island",
+	"StateName": "RI",
 	"Position": "maintenance",
 	"Wage": 5,
 	"WorkingHours": 40,
@@ -3289,7 +3289,7 @@
 },
 {
 	"CityName": "Mackinac Island",
-	"StateName": "Michigan",
+	"StateName": "MI",
 	"Position": "kitchen help",
 	"Wage": 8,
 	"WorkingHours": 37,
@@ -3300,7 +3300,7 @@
 },
 {
 	"CityName": "Mackinac Island",
-	"StateName": "Michigan",
+	"StateName": "MI",
 	"Position": "grocery clerk",
 	"Wage": 9,
 	"WorkingHours": 40,
@@ -3311,7 +3311,7 @@
 },
 {
 	"CityName": "Mackinac Island",
-	"StateName": "Michigan",
+	"StateName": "MI",
 	"Position": "food and beverage",
 	"Wage": 8,
 	"WorkingHours": 40,
@@ -3322,7 +3322,7 @@
 },
 {
 	"CityName": "Mackinac Island",
-	"StateName": "Michigan",
+	"StateName": "MI",
 	"Position": "fudge maker",
 	"Wage": 9,
 	"WorkingHours": 41,
@@ -3333,7 +3333,7 @@
 },
 {
 	"CityName": "Mackinac Island",
-	"StateName": "Michigan",
+	"StateName": "MI",
 	"Position": "food and beverage positions",
 	"Wage": 8,
 	"WorkingHours": 40,
@@ -3344,7 +3344,7 @@
 },
 {
 	"CityName": "Mackinac Island",
-	"StateName": "Michigan",
+	"StateName": "MI",
 	"Position": "fast food worker",
 	"Wage": 9,
 	"WorkingHours": 36,
@@ -3355,7 +3355,7 @@
 },
 {
 	"CityName": "Mackinac Island",
-	"StateName": "Michigan",
+	"StateName": "MI",
 	"Position": "kitchen helper",
 	"Wage": 8,
 	"WorkingHours": 40,
@@ -3366,7 +3366,7 @@
 },
 {
 	"CityName": "Mackinac Island",
-	"StateName": "Michigan",
+	"StateName": "MI",
 	"Position": "kitchen help",
 	"Wage": 3,
 	"WorkingHours": 37,
@@ -3377,7 +3377,7 @@
 },
 {
 	"CityName": "Mackinac Island",
-	"StateName": "Michigan",
+	"StateName": "MI",
 	"Position": "hostess",
 	"Wage": 7,
 	"WorkingHours": 40,
@@ -3388,7 +3388,7 @@
 },
 {
 	"CityName": "Mackinac Island",
-	"StateName": "Michigan",
+	"StateName": "MI",
 	"Position": "fudge maker",
 	"Wage": 8,
 	"WorkingHours": 40,
@@ -3399,7 +3399,7 @@
 },
 {
 	"CityName": "Harbor Springs",
-	"StateName": "Michigan",
+	"StateName": "MI",
 	"Position": "housekeeper",
 	"Wage": 9,
 	"WorkingHours": 40,
@@ -3410,7 +3410,7 @@
 },
 {
 	"CityName": "St. Ignace",
-	"StateName": "Michigan",
+	"StateName": "MI",
 	"Position": "front desk",
 	"Wage": 9,
 	"WorkingHours": 40,
@@ -3421,7 +3421,7 @@
 },
 {
 	"CityName": "St. Ignace",
-	"StateName": "Michigan",
+	"StateName": "MI",
 	"Position": "front desk",
 	"Wage": 9,
 	"WorkingHours": 39,
@@ -3432,7 +3432,7 @@
 },
 {
 	"CityName": "Sturgeon Bay",
-	"StateName": "Wisconsin",
+	"StateName": "WI",
 	"Position": "front desk",
 	"Wage": 9,
 	"WorkingHours": 40,
@@ -3443,7 +3443,7 @@
 },
 {
 	"CityName": "Block Island",
-	"StateName": "Rhode Island",
+	"StateName": "RI",
 	"Position": "retail clerk",
 	"Wage": 9,
 	"WorkingHours": 40,
@@ -3454,7 +3454,7 @@
 },
 {
 	"CityName": "Custer",
-	"StateName": "South Dakota",
+	"StateName": "SD",
 	"Position": "housekeeping",
 	"Wage": 9,
 	"WorkingHours": 40,
@@ -3465,7 +3465,7 @@
 },
 {
 	"CityName": "Ottawa",
-	"StateName": "Kansas",
+	"StateName": "KS",
 	"Position": "housekeeper",
 	"Wage": 7,
 	"WorkingHours": 32,
@@ -3476,7 +3476,7 @@
 },
 {
 	"CityName": "Wisconsin dells",
-	"StateName": "Wisconsin",
+	"StateName": "WI",
 	"Position": "cashier",
 	"Wage": 7,
 	"WorkingHours": 40,
@@ -3487,7 +3487,7 @@
 },
 {
 	"CityName": "Wisconsin Dells",
-	"StateName": "Wisconsin",
+	"StateName": "WI",
 	"Position": "bakery",
 	"Wage": 8,
 	"WorkingHours": 40,
@@ -3498,7 +3498,7 @@
 },
 {
 	"CityName": "Wisconsin Dells",
-	"StateName": "Wisconsin",
+	"StateName": "WI",
 	"Position": "housekeeper",
 	"Wage": 8,
 	"WorkingHours": 40,
@@ -3509,7 +3509,7 @@
 },
 {
 	"CityName": "Wisconsin Dells",
-	"StateName": "Wisconsin",
+	"StateName": "WI",
 	"Position": "housekeeper",
 	"Wage": 8,
 	"WorkingHours": 37,
@@ -3520,7 +3520,7 @@
 },
 {
 	"CityName": "Wisconsin Dells",
-	"StateName": "Wisconsin",
+	"StateName": "WI",
 	"Position": "photographers",
 	"Wage": 7,
 	"WorkingHours": 40,
@@ -3531,7 +3531,7 @@
 },
 {
 	"CityName": "Wisconsin Dells",
-	"StateName": "Wisconsin",
+	"StateName": "WI",
 	"Position": "food service",
 	"Wage": 7,
 	"WorkingHours": 40,
@@ -3542,7 +3542,7 @@
 },
 {
 	"CityName": "Sister Bay",
-	"StateName": "Wisconsin",
+	"StateName": "WI",
 	"Position": "waitress",
 	"Wage": 3,
 	"WorkingHours": 37,
@@ -3553,7 +3553,7 @@
 },
 {
 	"CityName": "Wisconsin Dells",
-	"StateName": "Wisconsin",
+	"StateName": "WI",
 	"Position": "housekeeper",
 	"Wage": 10,
 	"WorkingHours": 40,
@@ -3564,7 +3564,7 @@
 },
 {
 	"CityName": "Virginia Beach",
-	"StateName": "Virginia",
+	"StateName": "VA",
 	"Position": "servers",
 	"Wage": 3,
 	"WorkingHours": 32,
@@ -3575,7 +3575,7 @@
 },
 {
 	"CityName": "Virginia Beach",
-	"StateName": "Virginia",
+	"StateName": "VA",
 	"Position": "sandwich maker",
 	"Wage": 7,
 	"WorkingHours": 36,
@@ -3586,7 +3586,7 @@
 },
 {
 	"CityName": "Virginia Beach",
-	"StateName": "Virginia",
+	"StateName": "VA",
 	"Position": "housekeeping",
 	"Wage": 8,
 	"WorkingHours": 40,
@@ -3597,7 +3597,7 @@
 },
 {
 	"CityName": "Virginia Beach",
-	"StateName": "Virginia",
+	"StateName": "VA",
 	"Position": "front desk",
 	"Wage": 7,
 	"WorkingHours": 36,
@@ -3608,7 +3608,7 @@
 },
 {
 	"CityName": "Williamsburg",
-	"StateName": "Virginia",
+	"StateName": "VA",
 	"Position": "servers",
 	"Wage": 2,
 	"WorkingHours": 40,
@@ -3619,7 +3619,7 @@
 },
 {
 	"CityName": "Chincoteague Island",
-	"StateName": "Virginia",
+	"StateName": "VA",
 	"Position": "waitress",
 	"Wage": 2,
 	"WorkingHours": 40,
@@ -3630,7 +3630,7 @@
 },
 {
 	"CityName": "Chincoteague Island",
-	"StateName": "Virginia",
+	"StateName": "VA",
 	"Position": "waitresses",
 	"Wage": 7,
 	"WorkingHours": 32,
@@ -3652,7 +3652,7 @@
 },
 {
 	"CityName": "Sturgeon Bay",
-	"StateName": "Wisconsin",
+	"StateName": "WI",
 	"Position": "laundry",
 	"Wage": 9,
 	"WorkingHours": 40,
@@ -3663,7 +3663,7 @@
 },
 {
 	"CityName": "Orange Beach",
-	"StateName": "Alabama",
+	"StateName": "AL",
 	"Position": "maintenance",
 	"Wage": 8,
 	"WorkingHours": 41,
@@ -3685,7 +3685,7 @@
 },
 {
 	"CityName": "Fort Smith",
-	"StateName": "Arkansas",
+	"StateName": "AR",
 	"Position": "food prep",
 	"Wage": 8,
 	"WorkingHours": 38,
@@ -3696,7 +3696,7 @@
 },
 {
 	"CityName": "Laguna Beach",
-	"StateName": "California",
+	"StateName": "CA",
 	"Position": "ice cream sales person",
 	"Wage": 10,
 	"WorkingHours": 40,
@@ -3707,7 +3707,7 @@
 },
 {
 	"CityName": "Laguna Beach",
-	"StateName": "California",
+	"StateName": "CA",
 	"Position": "sales person",
 	"Wage": 9,
 	"WorkingHours": 32,
@@ -3729,7 +3729,7 @@
 },
 {
 	"CityName": "Lakeville",
-	"StateName": "Connecticut",
+	"StateName": "CN",
 	"Position": "waitstaff",
 	"Wage": 5,
 	"WorkingHours": 40,
@@ -3740,7 +3740,7 @@
 },
 {
 	"CityName": "Panama City Beach",
-	"StateName": "Florida",
+	"StateName": "FL",
 	"Position": "ice cream seller",
 	"Wage": 8,
 	"WorkingHours": 33,
@@ -3751,7 +3751,7 @@
 },
 {
 	"CityName": "Miramar Beach",
-	"StateName": "Florida",
+	"StateName": "FL",
 	"Position": "kitchen help",
 	"Wage": 9,
 	"WorkingHours": 36,
@@ -3762,7 +3762,7 @@
 },
 {
 	"CityName": "Destin",
-	"StateName": "Florida",
+	"StateName": "FL",
 	"Position": "hostess",
 	"Wage": 8,
 	"WorkingHours": 36,
@@ -3773,7 +3773,7 @@
 },
 {
 	"CityName": "Destin",
-	"StateName": "Florida",
+	"StateName": "FL",
 	"Position": "food prep",
 	"Wage": 10,
 	"WorkingHours": 45,
@@ -3784,7 +3784,7 @@
 },
 {
 	"CityName": "Tybee Island",
-	"StateName": "Georgia",
+	"StateName": "GA",
 	"Position": "sales assistant",
 	"Wage": 7,
 	"WorkingHours": 40,
@@ -3795,7 +3795,7 @@
 },
 {
 	"CityName": "Sandpoint",
-	"StateName": "Idaho",
+	"StateName": "ID",
 	"Position": "housekeeping",
 	"Wage": 9,
 	"WorkingHours": 36,
@@ -3806,7 +3806,7 @@
 },
 {
 	"CityName": "Okoboji",
-	"StateName": "Iowa",
+	"StateName": "IA",
 	"Position": "kitchen staff",
 	"Wage": 8,
 	"WorkingHours": 36,
@@ -3817,7 +3817,7 @@
 },
 {
 	"CityName": "Old Orchard Beach",
-	"StateName": "Maine",
+	"StateName": "ME",
 	"Position": "cook",
 	"Wage": 7,
 	"WorkingHours": 35,
@@ -3828,7 +3828,7 @@
 },
 {
 	"CityName": "Rockport",
-	"StateName": "Maine",
+	"StateName": "ME",
 	"Position": "housekeepers",
 	"Wage": 9,
 	"WorkingHours": 36,
@@ -3839,7 +3839,7 @@
 },
 {
 	"CityName": "Old Orchard Beach",
-	"StateName": "Maine",
+	"StateName": "ME",
 	"Position": "sales man",
 	"Wage": 9,
 	"WorkingHours": 35,
@@ -3850,7 +3850,7 @@
 },
 {
 	"CityName": "Old Orchard Beach",
-	"StateName": "Maine",
+	"StateName": "ME",
 	"Position": "retail sales",
 	"Wage": 7,
 	"WorkingHours": 40,
@@ -3861,7 +3861,7 @@
 },
 {
 	"CityName": "Ocean city",
-	"StateName": "Maryland",
+	"StateName": "MD",
 	"Position": "cook",
 	"Wage": 9,
 	"WorkingHours": 40,
@@ -3872,7 +3872,7 @@
 },
 {
 	"CityName": "Ocean City",
-	"StateName": "Maryland",
+	"StateName": "MD",
 	"Position": "server",
 	"Wage": 3,
 	"WorkingHours": 40,
@@ -3883,7 +3883,7 @@
 },
 {
 	"CityName": "Ocean city",
-	"StateName": "Maryland",
+	"StateName": "MD",
 	"Position": "gamemaster",
 	"Wage": 9,
 	"WorkingHours": 40,
@@ -3894,7 +3894,7 @@
 },
 {
 	"CityName": "Orleans",
-	"StateName": "Massachusetts",
+	"StateName": "MA",
 	"Position": "housekeeping",
 	"Wage": 10,
 	"WorkingHours": 32,
@@ -3905,7 +3905,7 @@
 },
 {
 	"CityName": "Silver Gate",
-	"StateName": "Montana",
+	"StateName": "MT",
 	"Position": "housekeeping",
 	"Wage": 8,
 	"WorkingHours": 33,
@@ -3916,7 +3916,7 @@
 },
 {
 	"CityName": "North Warren",
-	"StateName": "New Hampshire",
+	"StateName": "NH",
 	"Position": "snack bar attendant",
 	"Wage": 9,
 	"WorkingHours": 50,
@@ -3927,7 +3927,7 @@
 },
 {
 	"CityName": "Meredith",
-	"StateName": "New Hampshire",
+	"StateName": "NH",
 	"Position": "dishwasher",
 	"Wage": 7,
 	"WorkingHours": 40,
@@ -3938,7 +3938,7 @@
 },
 {
 	"CityName": "Albany",
-	"StateName": "New Hampshire",
+	"StateName": "NH",
 	"Position": "dining event server",
 	"Wage": 8,
 	"WorkingHours": 37,
@@ -3949,7 +3949,7 @@
 },
 {
 	"CityName": "North Conway",
-	"StateName": "New Hampshire",
+	"StateName": "NH",
 	"Position": "counter",
 	"Wage": 7,
 	"WorkingHours": 32,
@@ -3960,7 +3960,7 @@
 },
 {
 	"CityName": "Gilford",
-	"StateName": "New Hampshire",
+	"StateName": "NH",
 	"Position": "retail sales associate",
 	"Wage": 8,
 	"WorkingHours": 40,
@@ -3971,7 +3971,7 @@
 },
 {
 	"CityName": "Twin Mountain",
-	"StateName": "New Hampshire",
+	"StateName": "NH",
 	"Position": "housekeeper",
 	"Wage": 10,
 	"WorkingHours": 32,
@@ -3982,7 +3982,7 @@
 },
 {
 	"CityName": "Hampton Beach",
-	"StateName": "New Hampshire",
+	"StateName": "NH",
 	"Position": "sales associate",
 	"Wage": 8,
 	"WorkingHours": 32,
@@ -3993,7 +3993,7 @@
 },
 {
 	"CityName": "Ocean city",
-	"StateName": "New Jersey",
+	"StateName": "NJ",
 	"Position": "cashier",
 	"Wage": 9,
 	"WorkingHours": 40,
@@ -4004,7 +4004,7 @@
 },
 {
 	"CityName": "Wildwood",
-	"StateName": "New Jersey",
+	"StateName": "NJ",
 	"Position": "housekeeper",
 	"Wage": 9,
 	"WorkingHours": 33,
@@ -4015,7 +4015,7 @@
 },
 {
 	"CityName": "Wildwood",
-	"StateName": "New Jersey",
+	"StateName": "NJ",
 	"Position": "sandwich artist",
 	"Wage": 8,
 	"WorkingHours": 40,
@@ -4026,7 +4026,7 @@
 },
 {
 	"CityName": "Wildwood",
-	"StateName": "New Jersey",
+	"StateName": "NJ",
 	"Position": "waiter",
 	"Wage": 2,
 	"WorkingHours": 40,
@@ -4037,7 +4037,7 @@
 },
 {
 	"CityName": "Atlantic City",
-	"StateName": "New Jersey",
+	"StateName": "NJ",
 	"Position": "cashier",
 	"Wage": 8,
 	"WorkingHours": 40,
@@ -4048,7 +4048,7 @@
 },
 {
 	"CityName": "New York",
-	"StateName": "New York",
+	"StateName": "NY",
 	"Position": "buss person",
 	"Wage": 7,
 	"WorkingHours": 32,
@@ -4059,7 +4059,7 @@
 },
 {
 	"CityName": "Southampton",
-	"StateName": "New York",
+	"StateName": "NY",
 	"Position": "sales",
 	"Wage": 9,
 	"WorkingHours": 32,
@@ -4070,7 +4070,7 @@
 },
 {
 	"CityName": "Staten Island",
-	"StateName": "New York",
+	"StateName": "NY",
 	"Position": "wait staff",
 	"Wage": 9,
 	"WorkingHours": 37,
@@ -4081,7 +4081,7 @@
 },
 {
 	"CityName": "Lake George",
-	"StateName": "New York",
+	"StateName": "NY",
 	"Position": "housekeeping",
 	"Wage": 9,
 	"WorkingHours": 40,
@@ -4092,7 +4092,7 @@
 },
 {
 	"CityName": "Lake George",
-	"StateName": "New York",
+	"StateName": "NY",
 	"Position": "restaurant worker",
 	"Wage": 9,
 	"WorkingHours": 32,
@@ -4103,7 +4103,7 @@
 },
 {
 	"CityName": "Lake George",
-	"StateName": "New York",
+	"StateName": "NY",
 	"Position": "kitchen help",
 	"Wage": 9,
 	"WorkingHours": 36,
@@ -4114,7 +4114,7 @@
 },
 {
 	"CityName": "Roslyn Harbor",
-	"StateName": "New York",
+	"StateName": "NY",
 	"Position": "server",
 	"Wage": 10,
 	"WorkingHours": 32,
@@ -4125,7 +4125,7 @@
 },
 {
 	"CityName": "Niagara Falls",
-	"StateName": "New York",
+	"StateName": "NY",
 	"Position": "housekeeping",
 	"Wage": 9,
 	"WorkingHours": 40,
@@ -4136,7 +4136,7 @@
 },
 {
 	"CityName": "Richfield Springs",
-	"StateName": "New York",
+	"StateName": "NY",
 	"Position": "kitchen help",
 	"Wage": 9,
 	"WorkingHours": 32,
@@ -4147,7 +4147,7 @@
 },
 {
 	"CityName": "Buxton",
-	"StateName": "North Carolina",
+	"StateName": "NC",
 	"Position": "deli clerks",
 	"Wage": 8,
 	"WorkingHours": 40,
@@ -4158,7 +4158,7 @@
 },
 {
 	"CityName": "Nags Head",
-	"StateName": "North Carolina",
+	"StateName": "NC",
 	"Position": "cashier",
 	"Wage": 7,
 	"WorkingHours": 36,
@@ -4169,7 +4169,7 @@
 },
 {
 	"CityName": "Beulah",
-	"StateName": "North Dakota",
+	"StateName": "ND",
 	"Position": "server",
 	"Wage": 4,
 	"WorkingHours": 36,
@@ -4180,7 +4180,7 @@
 },
 {
 	"CityName": "Bismarck",
-	"StateName": "North Dakota",
+	"StateName": "ND",
 	"Position": "housekeeper",
 	"Wage": 8,
 	"WorkingHours": 40,
@@ -4191,7 +4191,7 @@
 },
 {
 	"CityName": "Riverdale",
-	"StateName": "North Dakota",
+	"StateName": "ND",
 	"Position": "bartenders",
 	"Wage": 4,
 	"WorkingHours": 36,
@@ -4202,7 +4202,7 @@
 },
 {
 	"CityName": "Franklin",
-	"StateName": "Ohio",
+	"StateName": "OH",
 	"Position": "server",
 	"Wage": 4,
 	"WorkingHours": 35,
@@ -4213,7 +4213,7 @@
 },
 {
 	"CityName": "Pittsburgh",
-	"StateName": "Pennsylvania",
+	"StateName": "PA",
 	"Position": "sandwich artist",
 	"Wage": 7,
 	"WorkingHours": 30,
@@ -4224,7 +4224,7 @@
 },
 {
 	"CityName": "New Cumberland",
-	"StateName": "Pennsylvania",
+	"StateName": "PA",
 	"Position": "housekeeper",
 	"Wage": 7,
 	"WorkingHours": 36,
@@ -4235,7 +4235,7 @@
 },
 {
 	"CityName": "Block Island",
-	"StateName": "Rhode Island",
+	"StateName": "RI",
 	"Position": "cashier",
 	"Wage": 9,
 	"WorkingHours": 32,
@@ -4246,7 +4246,7 @@
 },
 {
 	"CityName": "Myrtle Beach",
-	"StateName": "South Carolina",
+	"StateName": "SC",
 	"Position": "ride operator",
 	"Wage": 8,
 	"WorkingHours": 40,
@@ -4257,7 +4257,7 @@
 },
 {
 	"CityName": "Myrtle Beach",
-	"StateName": "South Carolina",
+	"StateName": "SC",
 	"Position": "server",
 	"Wage": 7,
 	"WorkingHours": 32,
@@ -4268,7 +4268,7 @@
 },
 {
 	"CityName": "Myrtle Beach",
-	"StateName": "South Carolina",
+	"StateName": "SC",
 	"Position": "cashier",
 	"Wage": 7,
 	"WorkingHours": 36,
@@ -4279,7 +4279,7 @@
 },
 {
 	"CityName": "Orderville",
-	"StateName": "Utah",
+	"StateName": "UT",
 	"Position": "kitchen help",
 	"Wage": 10,
 	"WorkingHours": 36,
@@ -4290,7 +4290,7 @@
 },
 {
 	"CityName": "Virginia Beach",
-	"StateName": "Virginia",
+	"StateName": "VA",
 	"Position": "sales associate",
 	"Wage": 7,
 	"WorkingHours": 35,
@@ -4301,7 +4301,7 @@
 },
 {
 	"CityName": "Wisconsin Dells",
-	"StateName": "Wisconsin",
+	"StateName": "WI",
 	"Position": "housekeeping",
 	"Wage": 7,
 	"WorkingHours": 36,
@@ -4312,7 +4312,7 @@
 },
 {
 	"CityName": "Sag Harbor",
-	"StateName": "New York",
+	"StateName": "NY",
 	"Position": "frozen yogurt",
 	"Wage": 12,
 	"WorkingHours": 40,
@@ -4323,7 +4323,7 @@
 },
 {
 	"CityName": "Hull",
-	"StateName": "Massachusetts",
+	"StateName": "MA",
 	"Position": "server",
 	"Wage": 3,
 	"WorkingHours": 32,
@@ -4378,7 +4378,7 @@
 },
 {
 	"CityName": "Rehoboth Beach",
-	"StateName": "Delaware",
+	"StateName": "DE",
 	"Position": "housekeeper",
 	"Wage": 9,
 	"WorkingHours": 45,
@@ -4389,7 +4389,7 @@
 },
 {
 	"CityName": "Miami",
-	"StateName": "Florida",
+	"StateName": "FL",
 	"Position": "gift shop cashier",
 	"Wage": 8,
 	"WorkingHours": 36,
@@ -4400,7 +4400,7 @@
 },
 {
 	"CityName": "Panama City Beach",
-	"StateName": "Florida",
+	"StateName": "FL",
 	"Position": "Sales person",
 	"Wage": 8,
 	"WorkingHours": 40,
@@ -4411,7 +4411,7 @@
 },
 {
 	"CityName": "Miramar Beach",
-	"StateName": "Florida",
+	"StateName": "FL",
 	"Position": "kitchen help",
 	"Wage": 9,
 	"WorkingHours": 36,
@@ -4422,7 +4422,7 @@
 },
 {
 	"CityName": "Pompano Beach",
-	"StateName": "Florida",
+	"StateName": "FL",
 	"Position": "waiting staff",
 	"Wage": 9,
 	"WorkingHours": 40,
@@ -4433,7 +4433,7 @@
 },
 {
 	"CityName": "Georgia",
-	"StateName": "Georgia",
+	"StateName": "GA",
 	"Position": "housekeeper",
 	"Wage": 7,
 	"WorkingHours": 35,
@@ -4444,7 +4444,7 @@
 },
 {
 	"CityName": "Deerfield",
-	"StateName": "Illinois",
+	"StateName": "IL",
 	"Position": "server",
 	"Wage": 11,
 	"WorkingHours": 40,
@@ -4455,7 +4455,7 @@
 },
 {
 	"CityName": "Old Orchard Beach",
-	"StateName": "Maine",
+	"StateName": "ME",
 	"Position": "housekeeper",
 	"Wage": 8,
 	"WorkingHours": 32,
@@ -4466,7 +4466,7 @@
 },
 {
 	"CityName": "Wells",
-	"StateName": "Maine",
+	"StateName": "ME",
 	"Position": "cooks",
 	"Wage": 8,
 	"WorkingHours": 40,
@@ -4477,7 +4477,7 @@
 },
 {
 	"CityName": "Old Orchard Beach",
-	"StateName": "Maine",
+	"StateName": "ME",
 	"Position": "Sales",
 	"Wage": 7,
 	"WorkingHours": 32,
@@ -4488,7 +4488,7 @@
 },
 {
 	"CityName": "Eastport",
-	"StateName": "Maine",
+	"StateName": "ME",
 	"Position": "housekeeper",
 	"Wage": 8,
 	"WorkingHours": 32,
@@ -4499,7 +4499,7 @@
 },
 {
 	"CityName": "Southwest Harbor",
-	"StateName": "Maine",
+	"StateName": "ME",
 	"Position": "wait staff",
 	"Wage": 8,
 	"WorkingHours": 32,
@@ -4510,7 +4510,7 @@
 },
 {
 	"CityName": "Boothbay Harbor",
-	"StateName": "Maine",
+	"StateName": "ME",
 	"Position": "bus person",
 	"Wage": 8,
 	"WorkingHours": 40,
@@ -4521,7 +4521,7 @@
 },
 {
 	"CityName": "Ocean City",
-	"StateName": "Maryland",
+	"StateName": "MD",
 	"Position": "sales person",
 	"Wage": 8,
 	"WorkingHours": 40,
@@ -4532,7 +4532,7 @@
 },
 {
 	"CityName": "Brewster",
-	"StateName": "Massachusetts",
+	"StateName": "MA",
 	"Position": "cooks",
 	"Wage": 12,
 	"WorkingHours": 32,
@@ -4543,7 +4543,7 @@
 },
 {
 	"CityName": "Grand Marais",
-	"StateName": "Minnesota",
+	"StateName": "MN",
 	"Position": "retail stock",
 	"Wage": 10,
 	"WorkingHours": 40,
@@ -4554,7 +4554,7 @@
 },
 {
 	"CityName": "Missoula",
-	"StateName": "Montana",
+	"StateName": "MT",
 	"Position": "order filler",
 	"Wage": 8,
 	"WorkingHours": 36,
@@ -4565,7 +4565,7 @@
 },
 {
 	"CityName": "Gallatin Gateway",
-	"StateName": "Montana",
+	"StateName": "MT",
 	"Position": "cabin cleaner",
 	"Wage": 6,
 	"WorkingHours": 48,
@@ -4576,7 +4576,7 @@
 },
 {
 	"CityName": "Sideny",
-	"StateName": "Nebraska",
+	"StateName": "NE",
 	"Position": "housekeeper",
 	"Wage": 8,
 	"WorkingHours": 23,
@@ -4587,7 +4587,7 @@
 },
 {
 	"CityName": "Hampton",
-	"StateName": "New Hampshire",
+	"StateName": "NH",
 	"Position": "housekeeper",
 	"Wage": 9,
 	"WorkingHours": 36,
@@ -4598,7 +4598,7 @@
 },
 {
 	"CityName": "Concord",
-	"StateName": "New Hampshire",
+	"StateName": "NH",
 	"Position": "housekeeping",
 	"Wage": 7,
 	"WorkingHours": 36,
@@ -4609,7 +4609,7 @@
 },
 {
 	"CityName": "Hampton",
-	"StateName": "New Hampshire",
+	"StateName": "NH",
 	"Position": "delli clerk",
 	"Wage": 8,
 	"WorkingHours": 40,
@@ -4620,7 +4620,7 @@
 },
 {
 	"CityName": "Quogue",
-	"StateName": "Ne York",
+	"StateName": "NY",
 	"Position": "waitress",
 	"Wage": 5,
 	"WorkingHours": 40,
@@ -4631,7 +4631,7 @@
 },
 {
 	"CityName": "Chautauqua",
-	"StateName": "New York",
+	"StateName": "NY",
 	"Position": "waitress",
 	"Wage": 7,
 	"WorkingHours": 45,
@@ -4642,7 +4642,7 @@
 },
 {
 	"CityName": "Oliverea",
-	"StateName": "New York",
+	"StateName": "NY",
 	"Position": "wait staff",
 	"Wage": 5,
 	"WorkingHours": 40,
@@ -4653,7 +4653,7 @@
 },
 {
 	"CityName": "Richfield Springs",
-	"StateName": "New York",
+	"StateName": "NY",
 	"Position": "kitchen help",
 	"Wage": 9,
 	"WorkingHours": 32,
@@ -4664,7 +4664,7 @@
 },
 {
 	"CityName": "New York",
-	"StateName": "New York",
+	"StateName": "NY",
 	"Position": "hotel front desk",
 	"Wage": 9,
 	"WorkingHours": 36,
@@ -4675,7 +4675,7 @@
 },
 {
 	"CityName": "Fort Ann",
-	"StateName": "New York",
+	"StateName": "NY",
 	"Position": "housekeeping",
 	"Wage": 9,
 	"WorkingHours": 40,
@@ -4686,7 +4686,7 @@
 },
 {
 	"CityName": "Lake Placid",
-	"StateName": "New York",
+	"StateName": "NY",
 	"Position": "waitress",
 	"Wage": 9,
 	"WorkingHours": 36,
@@ -4697,7 +4697,7 @@
 },
 {
 	"CityName": "Put in Bay",
-	"StateName": "Ohio",
+	"StateName": "OH",
 	"Position": "housekeepers",
 	"Wage": 7,
 	"WorkingHours": 40,
@@ -4708,7 +4708,7 @@
 },
 {
 	"CityName": "Block Island",
-	"StateName": "Rhode Island",
+	"StateName": "RI",
 	"Position": "food service worker",
 	"Wage": 9,
 	"WorkingHours": 36,
@@ -4719,7 +4719,7 @@
 },
 {
 	"CityName": "Myrtle Beach",
-	"StateName": "South Carolina",
+	"StateName": "SC",
 	"Position": "sales",
 	"Wage": 7,
 	"WorkingHours": 35,
@@ -4730,7 +4730,7 @@
 },
 {
 	"CityName": "Myrtle Beach",
-	"StateName": "South Carolina",
+	"StateName": "SC",
 	"Position": "caricature artist",
 	"Wage": 7,
 	"WorkingHours": 36,
@@ -4741,7 +4741,7 @@
 },
 {
 	"CityName": "Columbia",
-	"StateName": "South Carolina",
+	"StateName": "SC",
 	"Position": "sales woman",
 	"Wage": 8,
 	"WorkingHours": 50,
@@ -4752,7 +4752,7 @@
 },
 {
 	"CityName": "Custer",
-	"StateName": "South Dakota",
+	"StateName": "SD",
 	"Position": "housekeeping",
 	"Wage": 8,
 	"WorkingHours": 36,
@@ -4763,7 +4763,7 @@
 },
 {
 	"CityName": "Cathage",
-	"StateName": "Texas",
+	"StateName": "TX",
 	"Position": "front desk",
 	"Wage": 7,
 	"WorkingHours": 36,
@@ -4774,7 +4774,7 @@
 },
 {
 	"CityName": "Virginia Beach",
-	"StateName": "Virginia",
+	"StateName": "VA",
 	"Position": "housekeeping",
 	"Wage": 7,
 	"WorkingHours": 36,
@@ -4785,7 +4785,7 @@
 },
 {
 	"CityName": "Washington Island",
-	"StateName": "Wisconsin",
+	"StateName": "WI",
 	"Position": "housekeeping",
 	"Wage": 7,
 	"WorkingHours": 35,
@@ -4796,7 +4796,7 @@
 },
 {
 	"CityName": "Ephrain",
-	"StateName": "Wisconsin",
+	"StateName": "WI",
 	"Position": "dishwasher",
 	"Wage": 9,
 	"WorkingHours": 37,
